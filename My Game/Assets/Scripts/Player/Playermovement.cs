@@ -37,7 +37,7 @@ public class Playermovement : MonoBehaviour
     {
        
         
-        Horizontalinput = Input.GetAxis("Horizontal");
+        Horizontalinput = InputManager.Land.MoveHorizontal.ReadValue<Vector2>;
       
 
         
