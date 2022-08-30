@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Playermovement : MonoBehaviour
 {
@@ -24,6 +26,7 @@ public class Playermovement : MonoBehaviour
     private Rigidbody2D Body;
     private Animator anim;
     private BoxCollider2D boxCollider;
+    private InputManager inputManager;
     //private float wallJumpCooldown;
     private float Horizontalinput;
     private void Awake()
@@ -31,16 +34,25 @@ public class Playermovement : MonoBehaviour
         Body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        inputManager = new InputManager();
     }
-
+    private void OnEnable()
+    {
+        inputManager.Enable();
+    }
+    private void OnDisable()
+    {
+        inputManager.Disable();
+    }
     private void Update()
     {
-       
+        /*if (inputManager.Land.MoveHorizontal.ReadValue<float>() != 0)
+        {
+            Horizontalinput = Mathf.Sign(inputManager.Land.MoveHorizontal.ReadValue<float>()) * 1;
+        }
+        */
         
-        Horizontalinput = InputManager.Land.MoveHorizontal.ReadValue<Vector2>;
-      
-
-        
+        Horizontalinput = inputManager.Land.MoveHorizontal.ReadValue<float>();
 
         if (Horizontalinput > 0.01f)
             transform.localScale = new Vector3(9, 9, 1);
@@ -51,16 +63,16 @@ public class Playermovement : MonoBehaviour
         anim.SetBool("Run", Horizontalinput != 0);
         anim.SetBool("Grounded", isGrounded());
        //Jump
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (inputManager.Land.jump.triggered)
         {
             Jump();
         }
         //Jump height
-        if (Input.GetKeyUp(KeyCode.Space)&& Body.velocity.y > 0)
+        if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0)
         {
             Body.velocity = new Vector2(Body.velocity.x, Body.velocity.y / 2);
         }
-        if (onWall() && Input.GetKey(KeyCode.LeftControl))
+        if (onWall() && inputManager.Land.RT.ReadValue<float>() != 0)
         {
             Body.gravityScale = Gravity / 10;
             Body.velocity = Vector2.zero;
@@ -79,7 +91,18 @@ public class Playermovement : MonoBehaviour
             {
                 coyotecounter -= Time.deltaTime;
             }
+            if (inputManager.Land.Dash.triggered)
+            {
+                Dash();
+            }
         }
+        
+    }
+
+    
+    private void Dash()
+    {
+        //Body.AddForce(inputManager.Land.Dash.ReadValue<Vector2>().x,inputManager.Land.Dash.ReadValue<Vector2>().y);
     }
 
 

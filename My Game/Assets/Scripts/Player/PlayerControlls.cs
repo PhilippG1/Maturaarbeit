@@ -44,6 +44,24 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""RT"",
+                    ""type"": ""Button"",
+                    ""id"": ""e69cef93-5d67-40df-aeb3-9c03d1aa2502"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dash"",
+                    ""type"": ""Value"",
+                    ""id"": ""f7b12972-843f-46ed-b392-8586461c4b9e"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -51,6 +69,17 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""88c64965-4db1-4936-9d4c-25209cd66ce2"",
                     ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ddf61dac-3d14-48c4-88ec-b27d08507110"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -123,6 +152,50 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""action"": ""MoveHorizontal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""459b3678-b929-4684-b7b9-6b9da1ad4e41"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RT"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""One Modifier"",
+                    ""id"": ""a0b0471d-498a-4aec-810e-473e981e6cd6"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""c84a1506-6340-4aff-852e-77be70b80986"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""a0bc17cf-8fb2-4f87-a595-5da3ca805ad4"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -133,6 +206,8 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
         m_Land = asset.FindActionMap("Land", throwIfNotFound: true);
         m_Land_jump = m_Land.FindAction("jump", throwIfNotFound: true);
         m_Land_MoveHorizontal = m_Land.FindAction("MoveHorizontal", throwIfNotFound: true);
+        m_Land_RT = m_Land.FindAction("RT", throwIfNotFound: true);
+        m_Land_Dash = m_Land.FindAction("Dash", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -194,12 +269,16 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
     private ILandActions m_LandActionsCallbackInterface;
     private readonly InputAction m_Land_jump;
     private readonly InputAction m_Land_MoveHorizontal;
+    private readonly InputAction m_Land_RT;
+    private readonly InputAction m_Land_Dash;
     public struct LandActions
     {
         private @InputManager m_Wrapper;
         public LandActions(@InputManager wrapper) { m_Wrapper = wrapper; }
         public InputAction @jump => m_Wrapper.m_Land_jump;
         public InputAction @MoveHorizontal => m_Wrapper.m_Land_MoveHorizontal;
+        public InputAction @RT => m_Wrapper.m_Land_RT;
+        public InputAction @Dash => m_Wrapper.m_Land_Dash;
         public InputActionMap Get() { return m_Wrapper.m_Land; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -215,6 +294,12 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                 @MoveHorizontal.started -= m_Wrapper.m_LandActionsCallbackInterface.OnMoveHorizontal;
                 @MoveHorizontal.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnMoveHorizontal;
                 @MoveHorizontal.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnMoveHorizontal;
+                @RT.started -= m_Wrapper.m_LandActionsCallbackInterface.OnRT;
+                @RT.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnRT;
+                @RT.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnRT;
+                @Dash.started -= m_Wrapper.m_LandActionsCallbackInterface.OnDash;
+                @Dash.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnDash;
+                @Dash.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnDash;
             }
             m_Wrapper.m_LandActionsCallbackInterface = instance;
             if (instance != null)
@@ -225,6 +310,12 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                 @MoveHorizontal.started += instance.OnMoveHorizontal;
                 @MoveHorizontal.performed += instance.OnMoveHorizontal;
                 @MoveHorizontal.canceled += instance.OnMoveHorizontal;
+                @RT.started += instance.OnRT;
+                @RT.performed += instance.OnRT;
+                @RT.canceled += instance.OnRT;
+                @Dash.started += instance.OnDash;
+                @Dash.performed += instance.OnDash;
+                @Dash.canceled += instance.OnDash;
             }
         }
     }
@@ -233,5 +324,7 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
     {
         void OnJump(InputAction.CallbackContext context);
         void OnMoveHorizontal(InputAction.CallbackContext context);
+        void OnRT(InputAction.CallbackContext context);
+        void OnDash(InputAction.CallbackContext context);
     }
 }
