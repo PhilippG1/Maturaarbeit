@@ -27,6 +27,7 @@ public class Playermovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private InputManager inputManager;
+    private Vector3 playerSize;
     //private float wallJumpCooldown;
     private float Horizontalinput;
     private void Awake()
@@ -35,6 +36,7 @@ public class Playermovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         inputManager = new InputManager();
+        playerSize = transform.localScale;
     }
     private void OnEnable()
     {
@@ -46,18 +48,21 @@ public class Playermovement : MonoBehaviour
     }
     private void Update()
     {
-        /*if (inputManager.Land.MoveHorizontal.ReadValue<float>() != 0)
+        if (inputManager.Land.MoveHorizontal.ReadValue<float>() != 0)
         {
-            Horizontalinput = Mathf.Sign(inputManager.Land.MoveHorizontal.ReadValue<float>()) * 1;
+            Horizontalinput = Mathf.Sign(inputManager.Land.MoveHorizontal.ReadValue<float>());
         }
-        */
+        else
+        {
+            Horizontalinput = 0;
+        }
         
-        Horizontalinput = inputManager.Land.MoveHorizontal.ReadValue<float>();
+        //Horizontalinput = inputManager.Land.MoveHorizontal.ReadValue<float>();
 
         if (Horizontalinput > 0.01f)
-            transform.localScale = new Vector3(9, 9, 1);
+            transform.localScale = playerSize;
         else if (Horizontalinput < -0.01f)
-            transform.localScale = new Vector3(-9, 9, 1);
+            transform.localScale = new Vector3(-playerSize.x, playerSize.y, playerSize.z);
 
         //set animator parameters  
         anim.SetBool("Run", Horizontalinput != 0);

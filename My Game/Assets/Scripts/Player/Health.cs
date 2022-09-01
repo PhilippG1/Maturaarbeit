@@ -10,13 +10,13 @@ public class Health : MonoBehaviour
     [Header("iFrames")]
     [SerializeField] private float iFrameDuration;
     private Animator anim;
-
+    private InputManager inputManager;
     private void Awake()
     {
         currentHealth = startingHealth;
         GetComponent<Playermovement>().enabled = true;
         anim = GetComponent<Animator>();
-
+        inputManager = new InputManager();
     }
 
     public void TakeDamage(float _damage)
@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
-                GetComponent<Playermovement>().enabled = false;
+                inputManager.Disable();
                 anim.SetTrigger("Death");
                 dead = true;
                 
@@ -51,7 +51,7 @@ public class Health : MonoBehaviour
     public void RespawnHealth()
     {
         addHealth(startingHealth);
-        GetComponent<Playermovement>().enabled = true;
+        inputManager.Enable();
         dead = false;
         anim.ResetTrigger("Death");
         anim.Play("idle");
