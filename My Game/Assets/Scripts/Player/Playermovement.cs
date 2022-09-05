@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -22,6 +23,15 @@ public class Playermovement : MonoBehaviour
     [Header("Layers")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+
+    [Header("Dash")]
+    private float dashingVelocity = 10f;
+    private float dashingSpeed;
+    private float dashingTime = 1f;
+    private Vector2 dashingDirection;
+    private bool isDashing;
+    private bool canDash = true;
+    private TrailRenderer dashTrail;
     
     private Rigidbody2D Body;
     private Animator anim;
@@ -37,6 +47,7 @@ public class Playermovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         inputManager = new InputManager();
         playerSize = transform.localScale;
+        dashTrail = GetComponent<TrailRenderer>();
     }
     private void OnEnable()
     {
@@ -57,7 +68,32 @@ public class Playermovement : MonoBehaviour
             Horizontalinput = 0;
         }
         
-        //Horizontalinput = inputManager.Land.MoveHorizontal.ReadValue<float>();
+        //Dash
+        if (inputManager.Land.Dashbutton.triggered == true && canDash)
+        {
+            isDashing = true;
+            canDash = false;
+            dashTrail.emitting = true;
+            dashingDirection = inputManager.Land.DashDirection.ReadValue<Vector2>();
+            if (dashingDirection == Vector2.zero)
+            {
+                dashingDirection = new Vector2(transform.localScale.x, 0);
+
+            }
+            StartCoroutine(StopDashing());
+        }
+        if (isDashing)
+        {
+            Body.velocity = dashingDirection.normalized * dashingVelocity;
+        }
+
+        if (isGrounded())
+        {
+            canDash = true;
+        }
+
+       
+
 
         if (Horizontalinput > 0.01f)
             transform.localScale = playerSize;
@@ -96,19 +132,18 @@ public class Playermovement : MonoBehaviour
             {
                 coyotecounter -= Time.deltaTime;
             }
-            if (inputManager.Land.Dash.triggered)
-            {
-                Dash();
-            }
+           
         }
         
     }
 
-    
-    private void Dash()
+    private IEnumerator StopDashing()
     {
-        //Body.AddForce(inputManager.Land.Dash.ReadValue<Vector2>().x,inputManager.Land.Dash.ReadValue<Vector2>().y);
+        yield return new WaitForSeconds(dashingTime);
+        dashTrail.emitting = false;
+        isDashing = false;
     }
+    
 
 
     private void Jump()
