@@ -67,7 +67,7 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""name"": ""DashDirection"",
                     ""type"": ""Value"",
                     ""id"": ""7d194a8d-2bc1-40bd-8ca8-1f225a20c87d"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -196,20 +196,9 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""39ab0ed6-c3b2-41d1-9283-2505f379a917"",
-                    ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""DashDirection"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""d87f180e-2eb9-492d-aa47-e06812e3acc3"",
-                    ""path"": ""2DVector"",
+                    ""name"": ""1D Axis"",
+                    ""id"": ""aa497e28-2da9-4f42-8708-4e06f16c13ce"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -218,8 +207,8 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""f487c42f-f00f-4411-8278-0bc8105cdae7"",
+                    ""name"": ""positive"",
+                    ""id"": ""cca395fa-9c72-42f0-8f56-49325fc7f6a3"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -229,8 +218,8 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""down"",
-                    ""id"": ""3f9167b4-ff06-44e1-aef9-36c29c777207"",
+                    ""name"": ""negative"",
+                    ""id"": ""cb2ad5b0-122d-45fe-9b81-246bac259e85"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -240,9 +229,20 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""left"",
-                    ""id"": ""df1a5baf-4173-4af9-839d-4732b659cb95"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""name"": ""1D Axis"",
+                    ""id"": ""a6da70b9-d357-4f1f-b341-e73aa2835e75"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DashDirection"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""c3605add-2349-4f89-8bf4-1bc711dc8e7b"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -251,9 +251,9 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
-                    ""id"": ""88e99a5e-2cc6-47dc-90bf-d86ce44c4a58"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""name"": ""negative"",
+                    ""id"": ""717d6e04-9b9f-40b3-a782-e78b2440fd8b"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

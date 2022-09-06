@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 
 public class Playermovement : MonoBehaviour
@@ -25,9 +26,8 @@ public class Playermovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
 
     [Header("Dash")]
-    private float dashingVelocity = 10f;
-    private float dashingSpeed;
-    private float dashingTime = 1f;
+    [SerializeField]private float dashingVelocity;
+    [SerializeField]private float dashingTime;
     private Vector2 dashingDirection;
     private bool isDashing;
     private bool canDash = true;
@@ -74,7 +74,8 @@ public class Playermovement : MonoBehaviour
             isDashing = true;
             canDash = false;
             dashTrail.emitting = true;
-            dashingDirection = inputManager.Land.DashDirection.ReadValue<Vector2>();
+            dashingDirection = new Vector2(inputManager.Land.MoveHorizontal.ReadValue<float>(), inputManager.Land.DashDirection.ReadValue<float>());
+            Debug.Log(dashingDirection.normalized);
             if (dashingDirection == Vector2.zero)
             {
                 dashingDirection = new Vector2(transform.localScale.x, 0);
@@ -84,10 +85,11 @@ public class Playermovement : MonoBehaviour
         }
         if (isDashing)
         {
+            
             Body.velocity = dashingDirection.normalized * dashingVelocity;
         }
 
-        if (isGrounded())
+        if (isGrounded() && !isDashing)
         {
             canDash = true;
         }
@@ -142,6 +144,8 @@ public class Playermovement : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         dashTrail.emitting = false;
         isDashing = false;
+        
+
     }
     
 
