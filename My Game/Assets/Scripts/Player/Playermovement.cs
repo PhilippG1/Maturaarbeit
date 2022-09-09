@@ -85,6 +85,7 @@ public class Playermovement : MonoBehaviour
                         
             inputManager.Disable();
             Body.gravityScale = 0;
+            Body.velocity = Vector2.zero;
             StartCoroutine(StopDashing());
         }
         if (isDashing)
@@ -115,7 +116,7 @@ public class Playermovement : MonoBehaviour
             Jump();
         }
         //Jump height
-        if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0)
+        if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0 && !isDashing)
         {
             Body.velocity = new Vector2(Body.velocity.x, Body.velocity.y / 2);
         }
@@ -150,7 +151,7 @@ public class Playermovement : MonoBehaviour
         isDashing = false;
         inputManager.Enable();
         Body.gravityScale = Gravity;
-
+        
 
     }
     
