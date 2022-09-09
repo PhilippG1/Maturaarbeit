@@ -10,6 +10,7 @@ public class Damage_Script: MonoBehaviour
        if (Collision.CompareTag("Player"))
         {
             Collision.GetComponent<Health>().TakeDamage(damage);
+            Collision.GetComponent<Playermovement>().isDashing = false;
         }
     }
 }

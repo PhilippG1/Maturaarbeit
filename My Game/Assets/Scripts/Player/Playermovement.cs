@@ -29,7 +29,7 @@ public class Playermovement : MonoBehaviour
     [SerializeField]private float dashingVelocity;
     [SerializeField]private float dashingTime;
     private Vector2 dashingDirection;
-    private bool isDashing;
+    public bool isDashing;
     private bool canDash = true;
     private TrailRenderer dashTrail;
     

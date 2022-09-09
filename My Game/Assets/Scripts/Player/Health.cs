@@ -55,6 +55,7 @@ public class Health : MonoBehaviour
         dead = false;
         anim.ResetTrigger("Death");
         anim.Play("idle");
+       
     }
 
     public IEnumerator Invounerability()
