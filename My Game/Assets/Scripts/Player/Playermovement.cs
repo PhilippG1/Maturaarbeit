@@ -71,16 +71,20 @@ public class Playermovement : MonoBehaviour
         //Dash
         if (inputManager.Land.Dashbutton.triggered == true && canDash)
         {
+            
             isDashing = true;
             canDash = false;
             dashTrail.emitting = true;
             dashingDirection = new Vector2(inputManager.Land.MoveHorizontal.ReadValue<float>(), inputManager.Land.DashDirection.ReadValue<float>());
-            Debug.Log(dashingDirection.normalized);
+            
             if (dashingDirection == Vector2.zero)
             {
                 dashingDirection = new Vector2(transform.localScale.x, 0);
 
             }
+                        
+            inputManager.Disable();
+            Body.gravityScale = 0;
             StartCoroutine(StopDashing());
         }
         if (isDashing)
@@ -120,7 +124,7 @@ public class Playermovement : MonoBehaviour
             Body.gravityScale = Gravity / 10;
             Body.velocity = Vector2.zero;
         }
-        else
+        if(!isDashing)
         {
             Body.gravityScale = Gravity;
             Body.velocity = new Vector2(Horizontalinput * Speed, Body.velocity.y);
@@ -144,7 +148,9 @@ public class Playermovement : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         dashTrail.emitting = false;
         isDashing = false;
-        
+        inputManager.Enable();
+        Body.gravityScale = Gravity;
+
 
     }
     
