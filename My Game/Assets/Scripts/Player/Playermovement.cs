@@ -11,7 +11,7 @@ public class Playermovement : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float Speed;
     [SerializeField] private float JumpPower;
-    [SerializeField] private float Gravity;
+    [SerializeField] public float Gravity;
     [Header("Coyote Time")]
     [SerializeField]private float coyoteTime;
     private float coyotecounter;
