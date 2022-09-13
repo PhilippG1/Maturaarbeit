@@ -15,7 +15,7 @@ C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49845
+49248
 Successfully changed project path to: C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 117.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 121.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008348 seconds.
+Registered in 0.007238 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 109.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
+- Completed reload, in  0.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (665ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (463ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
+				RefreshPlugins (110ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015209 seconds.
+Registered in 0.017765 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 118.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
+- Completed reload, in  1.304 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1291ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1305ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1047ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (597ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (592ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4599 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (128.8 KB). Loaded Objects now: 5055.
-Memory consumption went from 173.2 MB to 173.1 MB.
-Total: 3.564600 ms (FindLiveObjects: 0.428300 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.922200 ms  DeleteObjects: 0.103900 ms)
+Unloading 4600 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (128.8 KB). Loaded Objects now: 5056.
+Memory consumption went from 173.3 MB to 173.1 MB.
+Total: 3.848300 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.001900 ms  DeleteObjects: 0.103200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,158 +158,162 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2218.230657 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00002.png
-  artifactKey: Guid(b64ea3622bde56846b949425867f12a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00002.png using Guid(b64ea3622bde56846b949425867f12a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81376c7ce99faee6fc495e559b608130') in 0.120977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00023.png
-  artifactKey: Guid(d12dbc425d04fc749bd7dcfb03c40d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00023.png using Guid(d12dbc425d04fc749bd7dcfb03c40d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b0d8fa03e912f53fcf17d5b59fc89') in 0.025775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00016.png
-  artifactKey: Guid(ba2dd6d8a26ffad49a633efc8b714780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00016.png using Guid(ba2dd6d8a26ffad49a633efc8b714780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84105c3fcd37fe4944bd71faa4a5659a') in 0.027538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00006.png
-  artifactKey: Guid(3c8ebde6720678f48aecff1a9266f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00006.png using Guid(3c8ebde6720678f48aecff1a9266f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfb9117fe8412e10a4f57ed435aadc4') in 0.027224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00009.png
-  artifactKey: Guid(7306b2c6c32bd9f4da4013e773751ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00009.png using Guid(7306b2c6c32bd9f4da4013e773751ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f9f8cc6f695b927a3e72b84380d9b8') in 0.028418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00017.png
-  artifactKey: Guid(ebecdbb09bce87747bffe04e0221593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00017.png using Guid(ebecdbb09bce87747bffe04e0221593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6776ef79ee82d704a4c9ff8376d04bfe') in 0.024179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation
-  artifactKey: Guid(9d8a52cb3602e8d4f988918fb05cbfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation using Guid(9d8a52cb3602e8d4f988918fb05cbfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b03fe4caf3e06c597090df9d8b5c4') in 0.005172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00012.png
-  artifactKey: Guid(e0c95ccd6289d40469a25496a4f1784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00012.png using Guid(e0c95ccd6289d40469a25496a4f1784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e12e662156731561343f8a778e23259') in 0.024904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00022.png
-  artifactKey: Guid(29fa78348c77f6f46a809372527b0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00022.png using Guid(29fa78348c77f6f46a809372527b0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395683eb6db42c2bcd36f3e5a4f4e2b2') in 0.026073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00004.png
-  artifactKey: Guid(72b491f030cc365408c659a0caef7210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00004.png using Guid(72b491f030cc365408c659a0caef7210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9af5e8a4dde01b95d658fd73d3ae96') in 0.025166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00014.png
-  artifactKey: Guid(d8246ba9e3a20e049bf1cc5c5571d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00014.png using Guid(d8246ba9e3a20e049bf1cc5c5571d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2fe2549a47ff8345daf6fb5b2c2cfa') in 0.031991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3
-  artifactKey: Guid(636a9a24e26e5b44da97b66c1fd51f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3 using Guid(636a9a24e26e5b44da97b66c1fd51f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fa044f0a32a8c8a218e28a47097016') in 0.005526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00007.png
-  artifactKey: Guid(a18f9e24c46b63d4ea41967c9403d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00007.png using Guid(a18f9e24c46b63d4ea41967c9403d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e58b67072ff224f255a464669c6c82') in 0.025122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00025.png
-  artifactKey: Guid(930b3603a3c57a04d958219e9e12b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00025.png using Guid(930b3603a3c57a04d958219e9e12b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73da7089c964135ef1e0725d706fdb35') in 0.033196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00018.png
-  artifactKey: Guid(1012630eb9fe1964d8961e3724e7fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00018.png using Guid(1012630eb9fe1964d8961e3724e7fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd6c88af60697a1c7fe56703d0c288') in 0.025673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00026.png
-  artifactKey: Guid(2b7b2867df4edd14c8dbfb59177f6100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Vegetation/Grass3/Comp 1_00026.png using Guid(2b7b2867df4edd14c8dbfb59177f6100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daebc0036b076d8d42c044ccbddf5155') in 0.023713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.902946 seconds.
-  path: Assets/Sprites/Dark Cave/Assets 1024 Cave/Cave - Platforms.png
-  artifactKey: Guid(a9c7d824312ed674b9a12c7662095267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Assets 1024 Cave/Cave - Platforms.png using Guid(a9c7d824312ed674b9a12c7662095267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd211d9e283e0e64e0005498b4f002208') in 0.091841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Dark Cave/Assets 1024 Cave/Cave - RockCombinations1.png
-  artifactKey: Guid(941c8187dc69918468152f2d808d289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dark Cave/Assets 1024 Cave/Cave - RockCombinations1.png using Guid(941c8187dc69918468152f2d808d289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f263064447ce65eb632261cbdf44bc2') in 0.272434 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016785 seconds.
+Registered in 0.013719 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.447 seconds
+- Completed reload, in  1.255 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1448ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1147ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (593ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (380ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (95.3 KB). Loaded Objects now: 5083.
-Memory consumption went from 175.6 MB to 175.5 MB.
-Total: 5.212200 ms (FindLiveObjects: 0.395500 ms CreateObjectMapping: 0.107600 ms MarkObjects: 4.650100 ms  DeleteObjects: 0.057800 ms)
+Unloading 28 unused Assets / (95.3 KB). Loaded Objects now: 5071.
+Memory consumption went from 171.3 MB to 171.2 MB.
+Total: 3.306300 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.726900 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1159ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (96.4 KB). Loaded Objects now: 5086.
+Memory consumption went from 171.3 MB to 171.2 MB.
+Total: 4.204000 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.099500 ms MarkObjects: 3.667800 ms  DeleteObjects: 0.066300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014147 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (95.3 KB). Loaded Objects now: 5101.
+Memory consumption went from 171.3 MB to 171.2 MB.
+Total: 3.481500 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.951700 ms  DeleteObjects: 0.047100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

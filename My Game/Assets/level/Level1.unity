@@ -54978,7 +54978,7 @@ GameObject:
   - component: {fileID: 496608717}
   - component: {fileID: 496608719}
   - component: {fileID: 496608718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cave - Floor_19 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54993,8 +54993,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496608716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.1015024, y: -2.931, z: -0.63879824}
-  m_LocalScale: {x: -0.09703819, y: 0.12574461, z: 1}
+  m_LocalPosition: {x: 4.1015024, y: -2.9439, z: -0.63879824}
+  m_LocalScale: {x: -0.09703819, y: 0.11577307, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1699967834}
@@ -57130,7 +57130,7 @@ GameObject:
   - component: {fileID: 1464045617}
   - component: {fileID: 1464045619}
   - component: {fileID: 1464045618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cave - Floor_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57145,7 +57145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464045616}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.0005026, y: -2.8905, z: -0.63879824}
+  m_LocalPosition: {x: 4.011, y: -2.911, z: -0.63879824}
   m_LocalScale: {x: 0.1402275, y: 0.13601722, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -57557,11 +57557,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1699967834}
   - component: {fileID: 1699967833}
-  - component: {fileID: 1699967832}
   - component: {fileID: 1699967831}
-  m_Layer: 0
+  - component: {fileID: 1699967835}
+  m_Layer: 2
   m_Name: FallingPlatform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57578,32 +57578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3bf00472ffbd5744ab39ae110209d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &1699967832
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699967830}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 3.9175873, y: -2.8388171}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.8228607, y: 0.29101944}
-  m_EdgeRadius: 0
+  PlayerObject: {fileID: 973158932}
 --- !u!50 &1699967833
 Rigidbody2D:
   serializedVersion: 4
@@ -57623,7 +57598,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!4 &1699967834
 Transform:
@@ -57643,6 +57618,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1699967835
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699967830}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 4.598133, y: -2.812572}
+  - {x: 3.3120842, y: -2.8064046}
+  - {x: 3.0335236, y: -2.987496}
+  - {x: 3.1964073, y: -3.05363}
+  - {x: 4.637287, y: -3.0474973}
+  - {x: 4.784706, y: -2.9793296}
+  - {x: 4.592739, y: -2.8180768}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1958323058
 GameObject:
   m_ObjectHideFlags: 3
@@ -62657,7 +62659,7 @@ GameObject:
   - component: {fileID: 2010002869}
   - component: {fileID: 2010002871}
   - component: {fileID: 2010002870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cave - Floor_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62672,8 +62674,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010002868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9, y: -2.933, z: -0.63879824}
-  m_LocalScale: {x: 0.11972369, y: 0.12046319, z: 1}
+  m_LocalPosition: {x: 3.9, y: -2.9389, z: -0.63879824}
+  m_LocalScale: {x: 0.11972369, y: 0.11587697, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1699967834}
