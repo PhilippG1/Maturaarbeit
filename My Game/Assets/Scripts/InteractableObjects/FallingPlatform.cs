@@ -4,15 +4,14 @@ using UnityEngine;
 public class FallingPlatform : MonoBehaviour
 {
     private Rigidbody2D Body;
-    private Transform StartingLocation;
+    [SerializeField] private Transform StartingLocation;
     [SerializeField] private GameObject PlayerObject;
     
-    private void Awake()
+    private void Start()
     {
-        StartingLocation = Body.transform;
+
         Body = GetComponent<Rigidbody2D>();
         Body.gravityScale = PlayerObject.GetComponent<Playermovement>().Gravity;
-        StartingLocation = Body.transform;
         Body.constraints = RigidbodyConstraints2D.FreezeAll;
         
 
@@ -31,16 +30,16 @@ public class FallingPlatform : MonoBehaviour
 
     private IEnumerator FallPlatform()
     {
-
+        yield return new WaitForSeconds(1);
         Body.constraints = RigidbodyConstraints2D.None;
         Body.gravityScale = PlayerObject.GetComponent<Playermovement>().Gravity;
-        Debug.Log("lul");
+        
 
         yield return new WaitForSeconds(10);
-        Debug.Log(StartingLocation.position);
         Body.gravityScale = 0;
 
         transform.position = StartingLocation.position;
+        transform.rotation = StartingLocation.rotation;
         Body.constraints = RigidbodyConstraints2D.FreezeAll;
     }
 }    

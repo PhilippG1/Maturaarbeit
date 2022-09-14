@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFrameDuration;
     private Animator anim;
     private InputManager inputManager;
+    private Transform currentCheckpoint;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -35,7 +37,8 @@ public class Health : MonoBehaviour
                 inputManager.Disable();
                 anim.SetTrigger("Death");
                 dead = true;
-                
+
+                StartCoroutine(Respawn());
 
 
             }
@@ -56,6 +59,21 @@ public class Health : MonoBehaviour
         anim.ResetTrigger("Death");
         anim.Play("idle");
        
+    }
+    public IEnumerator Respawn()
+    {
+        yield return new WaitForSeconds(0.4f);
+        transform.position = currentCheckpoint.position;
+        RespawnHealth();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Checkpoint")
+        {
+            currentCheckpoint = collision.transform;
+
+        }
     }
 
     public IEnumerator Invounerability()
