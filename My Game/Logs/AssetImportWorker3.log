@@ -1,0 +1,499 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56223
+Successfully changed project path to: C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 141.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008718 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014851 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (673ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4601 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (128.8 KB). Loaded Objects now: 5057.
+Memory consumption went from 173.3 MB to 173.2 MB.
+Total: 3.652800 ms (FindLiveObjects: 0.433100 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.998700 ms  DeleteObjects: 0.111200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1917.253351 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00001.png
+  artifactKey: Guid(4b04eb6603404304da311b63b8d0f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00001.png using Guid(4b04eb6603404304da311b63b8d0f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c74869757c2550eaa7943b1641fc3c') in 0.132749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00005.png
+  artifactKey: Guid(4603f83e751a40e459b144cecb7d163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00005.png using Guid(4603f83e751a40e459b144cecb7d163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b662a8ed74e133e251187570bf8ff3e6') in 0.027381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00006.png
+  artifactKey: Guid(12cb58e4549ea494aa65ba894d29d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00006.png using Guid(12cb58e4549ea494aa65ba894d29d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976d3a7e2869d22e876ba71dc8af8d0b') in 0.025159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00016.png
+  artifactKey: Guid(c2314e03d47c07c48a957b3d5effdad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00016.png using Guid(c2314e03d47c07c48a957b3d5effdad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a0b78cc815ed5938ba3a5b16f5564c') in 0.021927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00026.png
+  artifactKey: Guid(560368c61bc6e4a48af41ca1a56a4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00026.png using Guid(560368c61bc6e4a48af41ca1a56a4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026f2bf2f299813c6a990dd5a50b7031') in 0.022527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00008.png
+  artifactKey: Guid(6023f2fe9b42d774792fb03208ed6efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00008.png using Guid(6023f2fe9b42d774792fb03208ed6efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad9d2bd7177b7e6846376c423738190') in 0.086244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00027.png
+  artifactKey: Guid(9311d15636c8916448971449645eaed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00027.png using Guid(9311d15636c8916448971449645eaed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f9403ec6d5f0026a296febaf79044c') in 0.025107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00024.png
+  artifactKey: Guid(bf8873a8c2bbab04f993da2dbf0d839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00024.png using Guid(bf8873a8c2bbab04f993da2dbf0d839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954f84c54e75fcb382ba6a4ccf754671') in 0.025977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00009.png
+  artifactKey: Guid(4cbf92382f9806c43a58df498f01e901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00009.png using Guid(4cbf92382f9806c43a58df498f01e901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a448c31ab44af910f401abb568be0554') in 0.030481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00007.png
+  artifactKey: Guid(20352d86392052645a47abcd96e56390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00007.png using Guid(20352d86392052645a47abcd96e56390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd631aea2a120b3b1dd3d55081a63917a') in 0.025146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00004.png
+  artifactKey: Guid(c850e03fe66a3cb4e8e7f23b9fad80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00004.png using Guid(c850e03fe66a3cb4e8e7f23b9fad80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a591fde9f015f4e44c302cb6a88d6b38') in 0.024038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00025.png
+  artifactKey: Guid(aebf32f5d0a8fa644b501835ae7c0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00025.png using Guid(aebf32f5d0a8fa644b501835ae7c0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7fbbb20df7edb4bbd011c645d15241') in 0.022867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00020.png
+  artifactKey: Guid(80ca3b948a245564fa9e3e258064bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Comp 1/PlantSmall_00020.png using Guid(80ca3b948a245564fa9e3e258064bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ac01b339394849c3682ed3197d9550') in 0.023349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.933615 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00001.png
+  artifactKey: Guid(c255d11d448c6f74e9245c117ffc979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00001.png using Guid(c255d11d448c6f74e9245c117ffc979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768d1a060770227d187d8a280ce60039') in 0.030582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00026.png
+  artifactKey: Guid(ed882c9923153464da9096aa98118c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00026.png using Guid(ed882c9923153464da9096aa98118c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e142084a1ba52487709743161d82a509') in 0.030289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00010.png
+  artifactKey: Guid(38323a93370086340a2000a8e0d351a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00010.png using Guid(38323a93370086340a2000a8e0d351a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436bf357d5d297ca08ede8fdc9a667a1') in 0.022643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00008.png
+  artifactKey: Guid(4eca58c5a90a20049858ccf0ca81e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00008.png using Guid(4eca58c5a90a20049858ccf0ca81e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b883f0a1d13c9a7b4336a9c5bfc7b1') in 0.023883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00007.png
+  artifactKey: Guid(c3d66eb197f0aa847bebff7857a80bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00007.png using Guid(c3d66eb197f0aa847bebff7857a80bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a86035882fbc196a18797df9c4a4c3') in 0.025703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00002.png
+  artifactKey: Guid(b2456b845b65ea04fb147141691e8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00002.png using Guid(b2456b845b65ea04fb147141691e8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d71d772e258e9fe1501c88c418e379') in 0.024317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00024.png
+  artifactKey: Guid(c340baff79810974290939270acbf993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00024.png using Guid(c340baff79810974290939270acbf993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87713342b8aa8b03d6bc0103ff36e43') in 0.024207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00014.png
+  artifactKey: Guid(8b068f61c993f9a4fbb5e8f01a6e4f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00014.png using Guid(8b068f61c993f9a4fbb5e8f01a6e4f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19bf1aebf47eb4edbe2c190acee3de1') in 0.024379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00025.png
+  artifactKey: Guid(a0b2cda1a5674dc4e919fb47e1e2d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00025.png using Guid(a0b2cda1a5674dc4e919fb47e1e2d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12643ff2cec4d9b02cbec4d91e8137a') in 0.024446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00022.png
+  artifactKey: Guid(833291647fd713a41a61f2cb0843b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00022.png using Guid(833291647fd713a41a61f2cb0843b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d522ad7dc6b84a0b429039e9cd47d1') in 0.023155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00003.png
+  artifactKey: Guid(6f21c6d97f18d1a4fa2f146cf9f37315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00003.png using Guid(6f21c6d97f18d1a4fa2f146cf9f37315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1946c20bfb5cd582883f3749650f33ff') in 0.023069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00018.png
+  artifactKey: Guid(851cfb11764e7f2429f1966aead2eae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00018.png using Guid(851cfb11764e7f2429f1966aead2eae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4893566b026d182deddd60e623d092a') in 0.023146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00023.png
+  artifactKey: Guid(f85e2aa722072384fac3448ceab55a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00023.png using Guid(f85e2aa722072384fac3448ceab55a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f286ed151531b5c838b04e4625208b2c') in 0.023768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00015.png
+  artifactKey: Guid(089a9793675f87541ad0d60826caf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00015.png using Guid(089a9793675f87541ad0d60826caf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ef2724bf112f7e5d5f5d3179e9ed55') in 0.024377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00021.png
+  artifactKey: Guid(85848aee7a4ccab41be02bfd6a137592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass2/Grass2_00021.png using Guid(85848aee7a4ccab41be02bfd6a137592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aff98909fc1bbb6f0a13eb37933051') in 0.025023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.827194 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00002.png
+  artifactKey: Guid(edf889a30ca459043bcc06f2f9a142e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00002.png using Guid(edf889a30ca459043bcc06f2f9a142e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b03a0099fe8767ecc6fe1c901dfe9e8') in 0.029756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00015.png
+  artifactKey: Guid(4caf688f244ad9249b8ff9c867b2306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00015.png using Guid(4caf688f244ad9249b8ff9c867b2306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390924f11d368c889f374af88cd28366') in 0.025768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00039.png
+  artifactKey: Guid(ec4f3dc27d85769488b7cc65aeaf8791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00039.png using Guid(ec4f3dc27d85769488b7cc65aeaf8791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a7aad7f44d6b74154e8262746b322e') in 0.025958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00043.png
+  artifactKey: Guid(c9ada88bbad7b0c449b552a9123b2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00043.png using Guid(c9ada88bbad7b0c449b552a9123b2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb381903f7d2e9ee36194c0468cbc5a') in 0.027961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00011.png
+  artifactKey: Guid(4549c2883e0eade4b8967536de3296bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00011.png using Guid(4549c2883e0eade4b8967536de3296bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301605ffaca93f05ffe365ae552f2124') in 0.025663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00014.png
+  artifactKey: Guid(247edae6958eef74dabefc76a14268f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00014.png using Guid(247edae6958eef74dabefc76a14268f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231202f17b22d99ede05b4b3f167ee07') in 0.025311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00031.png
+  artifactKey: Guid(7681c0de336700e4d943e247037565d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00031.png using Guid(7681c0de336700e4d943e247037565d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65006c3f7005e5f302ae0ae89291610') in 0.028049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00003.png
+  artifactKey: Guid(29da0c46e8d99094e8271ff539c27bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00003.png using Guid(29da0c46e8d99094e8271ff539c27bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fdc102784de7d8330a4cd8635bb111') in 0.028814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00034.png
+  artifactKey: Guid(ce15359ac0fb43a4ea2daab76ee604bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00034.png using Guid(ce15359ac0fb43a4ea2daab76ee604bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9e7124a7567ad2a675491e9082bc8e') in 0.026167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00035.png
+  artifactKey: Guid(fa4c5fa089a3fc84f9ecfc096e1e112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00035.png using Guid(fa4c5fa089a3fc84f9ecfc096e1e112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178ed8b76136a0d8f66d5a98a94bd00a') in 0.088987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00025.png
+  artifactKey: Guid(94c4ca9f79ce17a469f2639bd0cdb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00025.png using Guid(94c4ca9f79ce17a469f2639bd0cdb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969a2cf3aef2335a97be17a3c78c38ca') in 0.027493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00016.png
+  artifactKey: Guid(dae5817fec016664999c966af81b06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00016.png using Guid(dae5817fec016664999c966af81b06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b323b08b0728212cda05cd2badc8e') in 0.026829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00026.png
+  artifactKey: Guid(90b1fb305d9f7d242b749f6cb0530683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00026.png using Guid(90b1fb305d9f7d242b749f6cb0530683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defac34c06e01c5270015fed9e133d24') in 0.025902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00013.png
+  artifactKey: Guid(c433a32333350884e98187f5fe43b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00013.png using Guid(c433a32333350884e98187f5fe43b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e6f71932889f94bcffae8c473a51dd') in 0.028058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00017.png
+  artifactKey: Guid(ef6c282567bd79445a11e734f1660bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Group Plant/GroupPlants_00017.png using Guid(ef6c282567bd79445a11e734f1660bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19a6ca6b86e1bfc4d40ffe01000ccf0') in 0.027628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.811709 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00001.png
+  artifactKey: Guid(69a05764e5eda794e9151e711eed2ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00001.png using Guid(69a05764e5eda794e9151e711eed2ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966d182230142459623cc27b47749099') in 0.094290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00013.png
+  artifactKey: Guid(bcd0b488ae8ae0a4c833a57a7943c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00013.png using Guid(bcd0b488ae8ae0a4c833a57a7943c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41061c39ef76b4bc0d252a3015ceb215') in 0.074838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00010.png
+  artifactKey: Guid(dedecbde1b83b524bb4dad0878d5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00010.png using Guid(dedecbde1b83b524bb4dad0878d5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e2460678a855cc2c2a617852117769') in 0.071642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00006.png
+  artifactKey: Guid(a8f21710c1a83404881d97f256840c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00006.png using Guid(a8f21710c1a83404881d97f256840c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a01bac773ed8135ff39a38cd295cb') in 0.071914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00019.png
+  artifactKey: Guid(55888cebe9cfbd94294129d96d89d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00019.png using Guid(55888cebe9cfbd94294129d96d89d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8f68b6990e8249ed870c153d5d6cc') in 0.071052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00014.png
+  artifactKey: Guid(fd2c1b99f07212b48bfc3a6e08936328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00014.png using Guid(fd2c1b99f07212b48bfc3a6e08936328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41f16f8452e4815e16dc84a1a342251') in 0.068164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00031.png
+  artifactKey: Guid(77b5a20ac2a3cd74480db834ed2b4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00031.png using Guid(77b5a20ac2a3cd74480db834ed2b4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea3210e3be4c86260b29cf440cf7367') in 0.067222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00009.png
+  artifactKey: Guid(a13290c372565d545963b3b901aaf500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00009.png using Guid(a13290c372565d545963b3b901aaf500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3a9acc72dd739dca88d99d21d2c75c') in 0.072144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00027.png
+  artifactKey: Guid(8e05f78c764bae24ebdcdb9a6ab2158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00027.png using Guid(8e05f78c764bae24ebdcdb9a6ab2158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd61eb63ede4b9f4b0db57af1f8e16bd') in 0.067613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00026.png
+  artifactKey: Guid(e3688ca84e3a243479bd221947c92da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00026.png using Guid(e3688ca84e3a243479bd221947c92da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faf9d8803804227aa768d74c4716c43') in 0.076075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00022.png
+  artifactKey: Guid(cbbd84a135ab4344c97b42ddab1f0bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00022.png using Guid(cbbd84a135ab4344c97b42ddab1f0bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02a4814d6b8c823f22de4bc70ad8a19') in 0.068379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00035.png
+  artifactKey: Guid(f54e45c276b872b4d91c04eb5a721e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00035.png using Guid(f54e45c276b872b4d91c04eb5a721e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17a85e1fac365391dce6616d5cf4951') in 0.069964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00033.png
+  artifactKey: Guid(bafd0d7daaeff254bb2d331737eee62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark Cave/Vegetation/Grass5/Plant5_00033.png using Guid(bafd0d7daaeff254bb2d331737eee62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77ba8f4c072703dc9f933315eb44dc3') in 0.068825 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
