@@ -38,7 +38,7 @@ public class Playermovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private InputManager inputManager;
     private Vector3 playerSize;
-    //private float wallJumpCooldown;
+    private float wallJumpCooldown;
     private float Horizontalinput;
     private void Awake()
     {   // Get references for rigidbody and animator

@@ -175,6 +175,17 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""3e3e3060-211e-4fc2-9e4a-3075ff59250c"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RT"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""c2eb5442-812a-4774-a274-3c3e1d3a1f85"",
                     ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",

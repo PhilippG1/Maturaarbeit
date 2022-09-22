@@ -56457,6 +56457,8 @@ GameObject:
   - component: {fileID: 973158938}
   - component: {fileID: 973158939}
   - component: {fileID: 973158941}
+  - component: {fileID: 973158942}
+  - component: {fileID: 973158943}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -56494,11 +56496,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 973158932}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2aa2f05d7d57b8740a38ed85a857526a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0017445385, y: -0.0027359053}
+  m_Offset: {x: -0.0017445385, y: 0.0034961533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -56509,7 +56511,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06486745, y: 0.13614441}
+  m_Size: {x: 0.06486745, y: 0.12368029}
   m_EdgeRadius: 0
 --- !u!212 &973158935
 SpriteRenderer:
@@ -56740,6 +56742,56 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 0
+--- !u!61 &973158942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973158932}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00060837995, y: -0.061452754}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.25, y: 0.25}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.055337086, y: 0.012466565}
+  m_EdgeRadius: 0
+--- !u!68 &973158943
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973158932}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 2aa2f05d7d57b8740a38ed85a857526a, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.03398457, y: -0.056884658}
+  - {x: -0.02810342, y: -0.06673836}
+  - {x: 0.027001426, y: -0.06634544}
+  - {x: 0.030478042, y: -0.0577393}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1094389712
 GameObject:
   m_ObjectHideFlags: 0
