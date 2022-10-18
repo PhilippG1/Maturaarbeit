@@ -15,7 +15,7 @@ C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63323
+57992
 Successfully changed project path to: C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 113.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007264 seconds.
+Registered in 0.006764 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 123.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
+- Completed reload, in  0.693 seconds
 Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (465ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009713 seconds.
+Registered in 0.009949 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 121.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
+- Completed reload, in  1.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1290ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1294ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1062ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (621ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (625ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4601 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 55 unused Assets / (128.8 KB). Loaded Objects now: 5057.
 Memory consumption went from 173.3 MB to 173.2 MB.
-Total: 3.442700 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.120700 ms MarkObjects: 2.807800 ms  DeleteObjects: 0.099200 ms)
+Total: 3.788100 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.118900 ms MarkObjects: 3.150200 ms  DeleteObjects: 0.121600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,43 +159,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20094.844091 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Wet/Footstep_58.wav
-  artifactKey: Guid(2398f947d6e08ca4ab2d7f557793730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Wet/Footstep_58.wav using Guid(2398f947d6e08ca4ab2d7f557793730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a918ac5d97146ec44f341286af6b1d6') in 0.106879 seconds 
+  Time since last request: 3388.794192 seconds.
+  path: Assets/Sunnyland/Sprites/player/hurt/player-hurt-1.png
+  artifactKey: Guid(c123c318507c6405a869f2f89068cf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/hurt/player-hurt-1.png using Guid(c123c318507c6405a869f2f89068cf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a0e3cfb0d3b4a693dccc793ed4d09') in 0.165168 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.710336 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Thick Grass/Footstep_36.wav
-  artifactKey: Guid(2ab97f7ecefc8ec4c84270c06de0edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Thick Grass/Footstep_36.wav using Guid(2ab97f7ecefc8ec4c84270c06de0edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987368477747781f5cf63285e9a80a34') in 0.012608 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sunnyland/Sprites/player/idle/player-idle-1.png
+  artifactKey: Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/idle/player-idle-1.png using Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe02f29a3abd6dc84dc8228ae9459da') in 0.019585 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.810402 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Rotten Leaves&Mixed Surfaces/Footstep_7.wav
-  artifactKey: Guid(8498c4b1e0fc7e040aa901cd9623c875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Rotten Leaves&Mixed Surfaces/Footstep_7.wav using Guid(8498c4b1e0fc7e040aa901cd9623c875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a450a9315320bd7b9b2ba1916166c6') in 0.011411 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sunnyland/Sprites/player/run/player-run-5.png
+  artifactKey: Guid(f58cc0961cc9146ca9780a0cb1327e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/run/player-run-5.png using Guid(f58cc0961cc9146ca9780a0cb1327e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44bda70e2bf497f076ed8580b80bd28') in 0.019197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.402667 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/General/Footstep_14.wav
-  artifactKey: Guid(a6be0d9f2e887884c92c68b2d07f9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/General/Footstep_14.wav using Guid(a6be0d9f2e887884c92c68b2d07f9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b50f3c46a36c54b038cb83e198502b') in 0.012117 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunnyland/Sprites/player/idle/player-idle-4.png
+  artifactKey: Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/idle/player-idle-4.png using Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22dc64aa7793adae59ca5af5d813f29') in 0.019338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.530609 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Soil&Stone/Footstep_29.wav
-  artifactKey: Guid(446cea23758126b41b46b60e0a5a7bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Soil&Stone/Footstep_29.wav using Guid(446cea23758126b41b46b60e0a5a7bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81fa10d3c86114a47393898cf188d55') in 0.011170 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/skulls.png
+  artifactKey: Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/skulls.png using Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bf79a083bc5d5bb11c09457ce46fac') in 0.020328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.406830 seconds.
-  path: Assets/SITIAN/Forest Sounds 2023 Lite/Birds/Bird_10.wav
-  artifactKey: Guid(c9c514fa8ad615641b30134ffbbda839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SITIAN/Forest Sounds 2023 Lite/Birds/Bird_10.wav using Guid(c9c514fa8ad615641b30134ffbbda839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86109346177b9943961a420b9610a60') in 0.013374 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/rock.png
+  artifactKey: Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/rock.png using Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bd5174d9af4dd0710bb7a9ad1f6961') in 0.022304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2074.066473 seconds.
-  path: Assets/Sounds/208956307.mp3
-  artifactKey: Guid(aca1f3189e94daa45924e8fd5810b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/208956307.mp3 using Guid(aca1f3189e94daa45924e8fd5810b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b07c2be3ea421f5e029c5a9c0f33314') in 0.015383 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sunnyland/Sprites/player/run/player-run-4.png
+  artifactKey: Guid(bc3fcf1d561104bea933686de6bade4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/run/player-run-4.png using Guid(bc3fcf1d561104bea933686de6bade4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564803e3f83d681dcbc800e731a0c941') in 0.023621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sunnyland/Sprites/player/jump/player-jump-1.png
+  artifactKey: Guid(e2976d09b53264ffbbb9210a1ae1dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/jump/player-jump-1.png using Guid(e2976d09b53264ffbbb9210a1ae1dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d66b0a66b255060c03caf0ad03498b3') in 0.019383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sunnyland/Sprites/player/run/player-run-2.png
+  artifactKey: Guid(d094cf6ac3d8a4d0bbbef5d6d6ad3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Sprites/player/run/player-run-2.png using Guid(d094cf6ac3d8a4d0bbbef5d6d6ad3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d715ae785f34588bbc38438fe837c4') in 0.020905 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
