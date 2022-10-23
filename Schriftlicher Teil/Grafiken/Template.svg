@@ -25,11 +25,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74564395"
-     inkscape:cx="837.5311"
-     inkscape:cy="285.65913"
+     inkscape:cx="724.8768"
+     inkscape:cy="501.57988"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -101,9 +101,9 @@
        style="font-size:16px;white-space:pre;shape-inside:url(#rect1120);display:inline;fill:none;stroke:#000000;stroke-width:0.510236;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="217.26172"
          y="914.48986"
-         id="tspan4137"><tspan
+         id="tspan1217"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial;fill:#000000"
-           id="tspan4135">AABB Gruppe</tspan></tspan></text>
+           id="tspan1215">AABB Gruppe</tspan></tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1;stroke-dashoffset:0"
        id="rect854"
@@ -426,5 +426,13 @@
        style="fill:#000000;stroke:#000000;stroke-width:0.199709;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 225.62556,60.544566 -2.5082,8.939305"
        id="path4046-9" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0893006;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect7988"
+       width="75.230553"
+       height="55.459087"
+       x="135.78659"
+       y="151.81882"
+       ry="0.84541285" />
   </g>
 </svg>

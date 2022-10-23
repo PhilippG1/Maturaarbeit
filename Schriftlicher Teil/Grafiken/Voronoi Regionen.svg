@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Voronoi Regionen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="334.27482"
+     inkscape:cy="476.09855"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2">
+    <rect
+       x="407.70129"
+       y="425.13588"
+       width="138.8062"
+       height="37.551435"
+       id="rect462" />
+    <rect
+       x="622.09591"
+       y="353.24806"
+       width="39.355153"
+       height="31.294459"
+       id="rect1207" />
+    <rect
+       x="492.19202"
+       y="459.33451"
+       width="162.27584"
+       height="85.83185"
+       id="rect997" />
+    <rect
+       x="217.26187"
+       y="899.89331"
+       width="186.41605"
+       height="30.845821"
+       id="rect1120" />
+    <linearGradient
+       id="linearGradient928"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop924" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop926" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient897"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop895" />
+    </linearGradient>
+    <rect
+       x="492.19202"
+       y="459.3345"
+       width="162.27583"
+       height="85.831848"
+       id="rect997-0" />
+    <rect
+       x="492.19202"
+       y="459.3345"
+       width="281.86229"
+       height="22.824142"
+       id="rect997-3" />
+    <rect
+       x="492.19202"
+       y="459.3345"
+       width="262.04563"
+       height="31.494203"
+       id="rect997-1" />
+    <rect
+       x="492.19202"
+       y="459.3345"
+       width="220.33858"
+       height="31.494203"
+       id="rect997-1-6" />
+    <rect
+       x="492.19202"
+       y="459.3345"
+       width="162.27583"
+       height="85.831848"
+       id="rect997-1-7" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1">
+    <g
+       id="g1877">
+      <g
+         id="g1086"
+         inkscape:label="g1086"
+         transform="matrix(1.2841108,0,0,1.3567638,-32.365577,-44.971814)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.131799;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect7988"
+           width="111.03278"
+           height="81.852074"
+           x="88.340645"
+           y="62.580303"
+           ry="1.2477448"
+           transform="matrix(0.77874901,0,0,0.73704797,25.204661,33.146384)" />
+      </g>
+      <g
+         id="g356"
+         transform="translate(-6.6945566)">
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.1, 0.1;stroke-dashoffset:0"
+           d="m 115.7439,87.373695 -0.031,24.176135"
+           id="path487"
+           transform="matrix(1.2841108,0,0,1.3567638,-32.365577,-44.971814)" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.1, 0.1;stroke-dashoffset:0"
+           d="m 169.21633,87.374111 -0.031,24.176119"
+           id="path487-2"
+           transform="matrix(1.2841108,0,0,1.3567638,-32.365577,-44.971814)" />
+        <g
+           id="g338">
+          <g
+             id="g1840"
+             transform="matrix(0.81997244,0,0,0.76511973,25.724026,16.588511)">
+            <path
+               style="opacity:0.835366;fill:#000000;stroke:#000000;stroke-width:1.66411;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+               d="m 109.85738,95.902142 84.43432,0.05325"
+               id="path2632"
+               sodipodi:nodetypes="cc" />
+            <ellipse
+               style="fill:#008080;stroke:#4d4d4d;stroke-width:0.485312;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0"
+               id="path3183-3"
+               cx="110.54581"
+               cy="95.741814"
+               rx="2.3486826"
+               ry="1.6440777" />
+            <ellipse
+               style="fill:#008080;stroke:#4d4d4d;stroke-width:0.485312;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0"
+               id="path3183-0"
+               cx="194.17194"
+               cy="96.086433"
+               rx="2.3486826"
+               ry="1.6440777" />
+          </g>
+          <text
+             xml:space="preserve"
+             id="text1205"
+             style="font-size:14.6667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect1207);fill:#000000;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.377953, 0.377953;stroke-dashoffset:0"
+             transform="matrix(0.26458333,0,0,0.26458333,19.106626,-5.4701933)"><tspan
+               x="622.0957"
+               y="366.45914"
+               id="tspan514">B</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:3.88056px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.1, 0.1;stroke-dashoffset:0"
+             x="114.95368"
+             y="91.218781"
+             id="text1145"><tspan
+               sodipodi:role="line"
+               id="tspan1143"
+               style="font-size:3.88056px;stroke-width:0.1"
+               x="114.95368"
+               y="91.218781">A</tspan></text>
+          <rect
+             style="opacity:0.182927;fill:#217844;stroke:none;stroke-width:0.0979947;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0979947, 0.0979947;stroke-dashoffset:0"
+             id="rect1299"
+             width="68.563995"
+             height="32.675117"
+             x="116.25951"
+             y="73.516296"
+             ry="0" />
+          <rect
+             style="opacity:0.182927;fill:#5f5fd3;stroke:none;stroke-width:0.0390457;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0390457, 0.0390457;stroke-dashoffset:0"
+             id="rect1299-0"
+             width="10.885227"
+             height="32.675117"
+             x="184.86797"
+             y="73.578796"
+             ry="0" />
+          <rect
+             style="opacity:0.182927;fill:#d35f8d;stroke:none;stroke-width:0.0390457;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0390457, 0.0390457;stroke-dashoffset:0"
+             id="rect1299-0-2"
+             width="10.885227"
+             height="32.675117"
+             x="105.35"
+             y="73.584"
+             ry="0" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,19.293584,0.3548387)"
+         id="text460"
+         style="font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect462);fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:round"><tspan
+           x="407.70117"
+           y="439.54879"
+           id="tspan516">Voronoi Regionen
+</tspan></text>
+    </g>
+    <g
+       id="g1892">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21695104,0,0,0.20243792,-0.35566715,31.575854)"
+         id="text995-92-4"
+         style="font-size:20.2002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect997-1-6);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"><tspan
+           x="492.19141"
+           y="477.5294"
+           id="tspan518">am nächsten an Punkt A
+</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.24469772,0,0,0.20243792,-14.028386,37.95675)"
+         id="text995-9"
+         style="font-size:19.0205px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect997-3);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"><tspan
+           x="492.19141"
+           y="476.46678"
+           id="tspan520">am nächsten an der Strecke AB
+</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21695104,0,0,0.20243792,-0.35566715,44.313922)"
+         id="text995-92"
+         style="font-size:20.2002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect997-1);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"><tspan
+           x="492.19141"
+           y="477.5294"
+           id="tspan522">am nächsten an Punkt B
+</tspan></text>
+      <rect
+         style="opacity:0.182927;fill:#217844;stroke:none;stroke-width:0.0103518;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0103518, 0.0103518;stroke-dashoffset:0"
+         id="rect1299-3"
+         width="5"
+         height="5"
+         x="100.24129"
+         y="130.19321"
+         ry="0" />
+      <rect
+         style="opacity:0.182927;fill:#5f5fd3;stroke:none;stroke-width:0.0103518;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0103518, 0.0103518;stroke-dashoffset:0"
+         id="rect1299-0-5"
+         width="5"
+         height="5"
+         x="100.24129"
+         y="136.86514"
+         ry="0" />
+      <rect
+         style="opacity:0.182927;fill:#d35f8d;stroke:none;stroke-width:0.0103518;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.0103518, 0.0103518;stroke-dashoffset:0"
+         id="rect1299-0-2-8"
+         width="5"
+         height="5"
+         x="100.24129"
+         y="124.08508"
+         ry="0" />
+    </g>
+  </g>
+</svg>
