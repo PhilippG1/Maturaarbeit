@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4912879"
-     inkscape:cx="579.70027"
-     inkscape:cy="425.80645"
+     inkscape:zoom="1.0544998"
+     inkscape:cx="545.75639"
+     inkscape:cy="385.01667"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1565" />
   <defs
      id="defs2">
     <rect
@@ -61,6 +61,18 @@
          offset="0"
          id="stop895" />
     </linearGradient>
+    <rect
+       x="217.26187"
+       y="899.89331"
+       width="186.41605"
+       height="30.845821"
+       id="rect1120-9" />
+    <rect
+       x="217.26187"
+       y="899.89331"
+       width="186.41605"
+       height="30.845821"
+       id="rect1120-9-1" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -78,7 +90,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 2">
+     inkscape:label="Layer 2"
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="display:none;fill:#de8787;stroke:#0000ff;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0"
@@ -102,49 +115,33 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:none;stroke:#0000ff;stroke-width:0.2;stroke-dasharray:0.59999975, 0.59999975;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect111-5"
-       width="19.91625"
-       height="9.9162502"
-       x="79.183983"
-       y="145.98665" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,47.07738,-90.345544)"
-       id="text1118"
-       style="font-size:16px;white-space:pre;shape-inside:url(#rect1120);display:inline;fill:none;stroke:#000000;stroke-width:0.510236;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
-         x="217.26172"
-         y="914.48986"
-         id="tspan2504"><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial;fill:#000000"
-           id="tspan2502">AABB Gruppe</tspan></tspan></text>
     <g
        id="g1565"
-       transform="translate(-2.2554359,0.63735294)">
+       transform="translate(-2.2554359,0.63735294)"
+       style="display:inline">
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599995, 0.599995;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599995, 0.599995;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-53"
          width="31.567606"
          height="27.20775"
          x="141.64313"
          y="110.21964" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3"
          width="147.43695"
          height="83.146622"
          x="81.81778"
          y="54.184219" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.141447;stroke-dasharray:0.424338, 0.424338;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.141447;stroke-dasharray:0.424338, 0.424338;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-6"
          width="59.300667"
          height="31.913563"
          x="81.861191"
          y="54.039143" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599995, 0.599995;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599995, 0.599995;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-5"
          width="59.417946"
          height="54.216652"
@@ -208,7 +205,7 @@
            ry="5.5887098" />
       </g>
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-22"
          width="19.39492"
          height="18.835447"
@@ -222,52 +219,88 @@
          x="182.70749"
          y="106.53719" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599992, 0.599992;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599992, 0.599992;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-7"
          width="45.481316"
          height="31.001463"
          x="141.54967"
          y="106.4529" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599997, 0.599997;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-3"
          width="23.881874"
          height="14.352401"
          x="205.35201"
          y="91.958748" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599992, 0.599992;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599992, 0.599992;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-8"
          width="22.577614"
          height="11.288631"
          x="184.36467"
          y="73.344131" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599998, 0.599998;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599998, 0.599998;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-2"
          width="44.718758"
          height="33.141331"
          x="184.36122"
          y="73.328979" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599996, 0.599996;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:none;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599996, 0.599996;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-04"
          width="87.53582"
          height="64.12326"
          x="141.61041"
          y="73.314705" />
       <rect
-         style="fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599998, 0.599998;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#000080;stroke-width:0.2;stroke-dasharray:0.599998, 0.599998;stroke-dashoffset:0;stroke-opacity:1"
          id="rect111-5-3-64"
          width="17.283358"
          height="9.1966076"
          x="103.89095"
          y="99.152504" />
+      <rect
+         style="display:inline;fill:none;stroke:#0000ff;stroke-width:0.120807;stroke-dasharray:0.362423, 0.362423;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect111-5"
+         width="9.9590874"
+         height="7.235445"
+         x="192.83069"
+         y="150.21368" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,148.28718,-86.858959)"
+         id="text1118"
+         style="font-size:16px;white-space:pre;shape-inside:url(#rect1120);display:inline;fill:none;stroke:#000000;stroke-width:0.510236;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
+           x="217.26172"
+           y="914.48986"
+           id="tspan2519"><tspan
+             style="font-family:Arial;-inkscape-font-specification:Arial;fill:#000000"
+             id="tspan2517">AABB Gruppe</tspan></tspan></text>
     </g>
     <path
        style="fill:#ffffff;stroke:#ff0000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 213.6129,49.499998 -98.29032,97.935482 h -0.17742"
        id="path1621" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,154.8712,-86.021142)"
+       id="text1118-6"
+       style="font-size:16px;white-space:pre;shape-inside:url(#rect1120-9);display:none;fill:none;stroke:#000000;stroke-width:0.377953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,112.9637,-86.329218)"
+       id="text1118-6-2"
+       style="font-size:16px;white-space:pre;shape-inside:url(#rect1120-9-1);display:inline;fill:none;stroke:#000000;stroke-width:0.377953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
+         x="217.26172"
+         y="914.48986"
+         id="tspan2523"><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial;fill:#000000"
+           id="tspan2521">Legende:</tspan></tspan></text>
+    <path
+       style="display:none;fill:#ffffff;stroke:#ff0000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 210.23183,151.80035 -19.99017,4.59467 h -0.036"
+       id="path1621-5" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
