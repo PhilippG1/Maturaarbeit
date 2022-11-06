@@ -16,10 +16,10 @@ public class Playermovement : MonoBehaviour
     [SerializeField]private float coyoteTime;
     private float coyotecounter;
     [Header("Multiple Jumps")]
-    [SerializeField] public int extraJumps;
+    [SerializeField] public int extraJumps = 1;
     private int jumpCounter;
     [Header("Walljump")]
-    public bool canWalljump;
+    public bool canWalljump = false;
     [SerializeField] private float wallJumpX;
     [SerializeField] private float wallJumpY;
     [Header("Layers")]
@@ -29,7 +29,7 @@ public class Playermovement : MonoBehaviour
     [Header("Dash")]
     [SerializeField]private float dashingVelocity;
     [SerializeField]private float dashingTime;
-    public bool dashAbility;
+    public bool dashAbility = false;
     private Vector2 dashingDirection;
     public bool isDashing;
     private bool canDash = true;
