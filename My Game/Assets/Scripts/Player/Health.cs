@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFrameDuration;
     private Animator anim;
     private InputManager inputManager;
-    private Transform currentCheckpoint;
+    public Transform currentCheckpoint;
 
     private void Awake()
     {
