@@ -71,6 +71,15 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Esc"",
+                    ""type"": ""Button"",
+                    ""id"": ""3ef61ad2-8755-4398-9b5d-277ff5e395a7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -271,6 +280,28 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                     ""action"": ""DashDirection"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""323db799-67fb-4525-8a45-e94683553a20"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Esc"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fc863b2d-68ce-4845-968b-e5204661350a"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Esc"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -284,6 +315,7 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
         m_Land_RT = m_Land.FindAction("RT", throwIfNotFound: true);
         m_Land_Dashbutton = m_Land.FindAction("Dashbutton", throwIfNotFound: true);
         m_Land_DashDirection = m_Land.FindAction("DashDirection", throwIfNotFound: true);
+        m_Land_Esc = m_Land.FindAction("Esc", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -348,6 +380,7 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
     private readonly InputAction m_Land_RT;
     private readonly InputAction m_Land_Dashbutton;
     private readonly InputAction m_Land_DashDirection;
+    private readonly InputAction m_Land_Esc;
     public struct LandActions
     {
         private @InputManager m_Wrapper;
@@ -357,6 +390,7 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
         public InputAction @RT => m_Wrapper.m_Land_RT;
         public InputAction @Dashbutton => m_Wrapper.m_Land_Dashbutton;
         public InputAction @DashDirection => m_Wrapper.m_Land_DashDirection;
+        public InputAction @Esc => m_Wrapper.m_Land_Esc;
         public InputActionMap Get() { return m_Wrapper.m_Land; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -381,6 +415,9 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                 @DashDirection.started -= m_Wrapper.m_LandActionsCallbackInterface.OnDashDirection;
                 @DashDirection.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnDashDirection;
                 @DashDirection.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnDashDirection;
+                @Esc.started -= m_Wrapper.m_LandActionsCallbackInterface.OnEsc;
+                @Esc.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnEsc;
+                @Esc.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnEsc;
             }
             m_Wrapper.m_LandActionsCallbackInterface = instance;
             if (instance != null)
@@ -400,6 +437,9 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
                 @DashDirection.started += instance.OnDashDirection;
                 @DashDirection.performed += instance.OnDashDirection;
                 @DashDirection.canceled += instance.OnDashDirection;
+                @Esc.started += instance.OnEsc;
+                @Esc.performed += instance.OnEsc;
+                @Esc.canceled += instance.OnEsc;
             }
         }
     }
@@ -411,5 +451,6 @@ public partial class @InputManager : IInputActionCollection2, IDisposable
         void OnRT(InputAction.CallbackContext context);
         void OnDashbutton(InputAction.CallbackContext context);
         void OnDashDirection(InputAction.CallbackContext context);
+        void OnEsc(InputAction.CallbackContext context);
     }
 }

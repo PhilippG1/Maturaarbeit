@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveFile : MonoBehaviour
+public class SaveFileMenu : MonoBehaviour
 {
     private Playermovement playermovement;
     private Health health;

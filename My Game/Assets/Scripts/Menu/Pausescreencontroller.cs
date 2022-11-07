@@ -1,18 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Pausescreencontroller : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private InputManager inputManager;
+    private Playermovement playermovement;
+    [SerializeField] private GameObject pauseMenu;
+    private void Awake()
     {
+        inputManager = new InputManager();
+        playermovement = GetComponent<Playermovement>();
+        inputManager.Enable();
+    }
+    public void Update()
+    {
+        if (inputManager.Land.Esc.triggered == true)
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0;
+        }
         
     }
-
-    // Update is called once per frame
-    void Update()
+    public void ContinueGame()
     {
-        
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    
 }
