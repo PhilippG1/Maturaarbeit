@@ -1,24 +1,28 @@
 using System.IO;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
+using System;
+using Mono.Cecil.Cil;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public static class SaveSystem
 {
     public static void SavePlayer(Playermovement playermovement, Health health)
     {
        BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/PlayerDataSave.save";
-        FileStream stream =new FileStream(path, FileMode.Create);
+        string path = "C:/Users/phili/OneDrive/Dokumente/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";//Path.Combine(Application.persistentDataPath,"/PlayerDataSave.save");
+        FileStream stream =new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite);
         PlayerData data = new PlayerData(playermovement, health);
 
         formatter.Serialize(stream, data);
         stream.Close();
 
+
     }
 
     public static PlayerData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/PlayerDataSave.save";
+        string path = "C:/Users/phili/OneDrive/Dokumente/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";//Path.Combine(Application.persistentDataPath, "/PlayerDataSave.save");
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -31,7 +35,7 @@ public static class SaveSystem
         else
         {
             Debug.LogError("Save Flie not found in" + path);
-            return null;
+            return default;
         }
     }
 

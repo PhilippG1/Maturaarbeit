@@ -6,18 +6,18 @@ public class SaveFileMenu : MonoBehaviour
 {
     private Playermovement playermovement;
     private Health health;
-
+    [SerializeField]private GameObject playerObject;
 
     public void SavePlayer()
     {
-        playermovement = GetComponent<Playermovement>();
-        health = GetComponent<Health>();
+        playermovement = playerObject.GetComponent<Playermovement>();
+        health = playerObject.GetComponent<Health>();
         SaveSystem.SavePlayer(playermovement,health);
     }
     public void LoadPlayer()
     {
-        health = GetComponent<Health>();
-        playermovement = GetComponent<Playermovement>();
+        health = playerObject.GetComponent<Health>();
+        playermovement = playerObject.GetComponent<Playermovement>();
         PlayerData data = SaveSystem.LoadPlayer();
 
         playermovement.extraJumps = data.jumpCount;

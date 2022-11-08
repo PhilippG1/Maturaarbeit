@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class PlayerData : MonoBehaviour
+public class PlayerData
 {
     public int jumpCount;
     public bool canWalljump;

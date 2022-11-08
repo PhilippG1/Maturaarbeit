@@ -25,7 +25,7 @@ public class MenuController : MonoBehaviour
 
     [Header("Levels To Load")]
     public string _NewGameLevel;
-    private string levelToLoad;
+    public string levelToLoad;
     [SerializeField] private GameObject noSavedGameDialog = null;
 
     [Header("Resolution Dropdown")]
@@ -69,7 +69,8 @@ public class MenuController : MonoBehaviour
 
     public void LoadGameDialogYes()
     {
-        if (PlayerPrefs.HasKey("SavedLevel"))
+        SceneManager.LoadScene(levelToLoad);
+        /*if (PlayerPrefs.HasKey("SavedLevel"))
         {
             levelToLoad = PlayerPrefs.GetString("SavedLevel");
             SceneManager.LoadScene(levelToLoad);
@@ -77,8 +78,10 @@ public class MenuController : MonoBehaviour
         else
         {
             noSavedGameDialog.SetActive(true);
-        }
-     }
+        }*/
+
+        
+    }
 
 
 

@@ -53327,7 +53327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &532325865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53340,6 +53340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e22003c98fe9664b8fd22a02a75ce04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 973158932}
 --- !u!4 &532325866
 Transform:
   m_ObjectHideFlags: 0
@@ -60979,9 +60980,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1175675224}
-        m_TargetAssemblyTypeName: Pausescreencontroller, Assembly-CSharp
-        m_MethodName: MainMenu
+      - m_Target: {fileID: 532325865}
+        m_TargetAssemblyTypeName: SaveFileMenu, Assembly-CSharp
+        m_MethodName: LoadPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
