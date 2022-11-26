@@ -1887,6 +1887,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1237483399}
+        m_TargetAssemblyTypeName: SaveFileMenu, Assembly-CSharp
+        m_MethodName: LoadPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &258107111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6713,7 +6725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e22003c98fe9664b8fd22a02a75ce04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObject: {fileID: 0}
+  playerObject: {fileID: 3377946579644945728, guid: b820d70e45d9796469a6ad95513f9b4b, type: 3}
 --- !u!4 &1237483400
 Transform:
   m_ObjectHideFlags: 0
