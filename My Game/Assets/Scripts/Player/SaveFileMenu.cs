@@ -24,7 +24,9 @@ public class SaveFileMenu : MonoBehaviour
         playermovement.dashAbility = data.canDash;
         playermovement.canWalljump = data.canWalljump;
 
-        health.currentCheckpoint.position = new Vector3 (data.currentCheckpoint[0], data.currentCheckpoint[1], data.currentCheckpoint[2]);
+        health.currentCheckpoint = new Vector3 (data.currentCheckpoint[0], data.currentCheckpoint[1],0);
+        playerObject.transform.position = health.currentCheckpoint;
+
     }
 
 }

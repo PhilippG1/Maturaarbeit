@@ -15,6 +15,7 @@ public class Pausescreencontroller : MonoBehaviour
         inputManager = new InputManager();
         playermovement = GetComponent<Playermovement>();
         inputManager.Enable();
+        Time.timeScale = 1;
     }
     public void Update()
     {
@@ -33,6 +34,7 @@ public class Pausescreencontroller : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        
     }
     
 }

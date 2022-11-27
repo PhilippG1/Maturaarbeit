@@ -18,9 +18,9 @@ public class PlayerData
         canDash = playermovement.dashAbility;
         canWalljump = playermovement.canWalljump;
         currentCheckpoint = new float[3];
-        currentCheckpoint[0] = health.currentCheckpoint.position.x;
-        currentCheckpoint[1] = health.currentCheckpoint.position.y;
-        currentCheckpoint[2] = health.currentCheckpoint.position.z;
+        currentCheckpoint[0] = health.currentCheckpoint.x;
+        currentCheckpoint[1] = health.currentCheckpoint.y;
+        currentCheckpoint[2] = health.currentCheckpoint.z;
     }
 
 

@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class DontDeletePlayer : MonoBehaviour
 {
-    [SerializeField] GameObject playerObject;
     private void Awake()
     {
-        DontDestroyOnLoad(playerObject);
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
+        if (objs.Length > 1)
+        { 
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(this.gameObject);
     }
 }

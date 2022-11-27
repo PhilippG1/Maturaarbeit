@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFrameDuration;
     private Animator anim;
     private InputManager inputManager;
-    public Transform currentCheckpoint;
+    public Vector3 currentCheckpoint;
 
     private void Awake()
     {
@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
         GetComponent<Playermovement>().enabled = true;
         anim = GetComponent<Animator>();
         inputManager = new InputManager();
+        
     }
 
     public void TakeDamage(float _damage)
@@ -63,7 +64,7 @@ public class Health : MonoBehaviour
     public IEnumerator Respawn()
     {
         yield return new WaitForSeconds(0.4f);
-        transform.position = currentCheckpoint.position;
+        transform.position = currentCheckpoint;
         RespawnHealth();
     }
 
@@ -71,7 +72,7 @@ public class Health : MonoBehaviour
     {
         if (collision.transform.tag == "Checkpoint")
         {
-            currentCheckpoint = collision.transform;
+            currentCheckpoint = collision.transform.position;
 
         }
     }
