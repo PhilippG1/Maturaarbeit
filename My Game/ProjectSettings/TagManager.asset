@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Checkpoint
+  - WallAbilities
+  - DashAbility
+  - DoubleJump
   layers:
   - Default
   - TransparentFX

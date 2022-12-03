@@ -12,29 +12,30 @@ public class Playermovement : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] private float JumpPower;
     [SerializeField] public float Gravity;
+    
     [Header("Coyote Time")]
-    [SerializeField]private float coyoteTime;
+    [SerializeField] private float coyoteTime;
     private float coyotecounter;
     [Header("Multiple Jumps")]
-    [SerializeField] public int extraJumps = 1;
+    public int extraJumps = 0;
     private int jumpCounter;
     [Header("Walljump")]
-    public bool canWalljump = false;
     [SerializeField] private float wallJumpX;
     [SerializeField] private float wallJumpY;
+    public bool wallInteractions = false;
     [Header("Layers")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
 
     [Header("Dash")]
-    [SerializeField]private float dashingVelocity;
-    [SerializeField]private float dashingTime;
+    [SerializeField] private float dashingVelocity;
+    [SerializeField] private float dashingTime;
     public bool dashAbility = false;
     private Vector2 dashingDirection;
     public bool isDashing;
-    private bool canDash = true;
+    private bool canDash = false;
     private TrailRenderer dashTrail;
-    
+
     private Rigidbody2D Body;
     private Animator anim;
     private BoxCollider2D boxCollider;
@@ -69,22 +70,22 @@ public class Playermovement : MonoBehaviour
         {
             Horizontalinput = 0;
         }
-        
+
         //Dash
         if (inputManager.Land.Dashbutton.triggered == true && canDash)
         {
-            
+
             isDashing = true;
             canDash = false;
-            dashTrail.emitting = true;
+            GetComponent<ParticleSystem>().emission.enabled;
             dashingDirection = new Vector2(inputManager.Land.MoveHorizontal.ReadValue<float>(), inputManager.Land.DashDirection.ReadValue<float>());
-            
+
             if (dashingDirection == Vector2.zero)
             {
                 dashingDirection = new Vector2(transform.localScale.x, 0);
 
             }
-                        
+
             inputManager.Disable();
             Body.gravityScale = 0;
             Body.velocity = Vector2.zero;
@@ -92,16 +93,16 @@ public class Playermovement : MonoBehaviour
         }
         if (isDashing)
         {
-            
+
             Body.velocity = dashingDirection.normalized * dashingVelocity;
         }
 
-        if (isGrounded() && !isDashing)
+        if (isGrounded() && !isDashing && dashAbility)
         {
             canDash = true;
         }
 
-       
+
 
 
         if (Horizontalinput > 0.01f)
@@ -112,7 +113,7 @@ public class Playermovement : MonoBehaviour
         //set animator parameters  
         anim.SetBool("Run", Horizontalinput != 0);
         anim.SetBool("Grounded", isGrounded());
-       //Jump
+        //Jump
         if (inputManager.Land.jump.triggered)
         {
             Jump();
@@ -127,7 +128,7 @@ public class Playermovement : MonoBehaviour
             Body.gravityScale = Gravity / 10;
             Body.velocity = Vector2.zero;
         }
-        if(!isDashing)
+        if (!isDashing)
         {
             Body.gravityScale = Gravity;
             Body.velocity = new Vector2(Horizontalinput * Speed, Body.velocity.y);
@@ -141,9 +142,9 @@ public class Playermovement : MonoBehaviour
             {
                 coyotecounter -= Time.deltaTime;
             }
-           
+
         }
-        
+
     }
 
     private IEnumerator StopDashing()
@@ -153,10 +154,10 @@ public class Playermovement : MonoBehaviour
         isDashing = false;
         inputManager.Enable();
         Body.gravityScale = Gravity;
-        
+
 
     }
-    
+
 
 
     private void Jump()
@@ -173,14 +174,14 @@ public class Playermovement : MonoBehaviour
             }
             else
             {
-                if(coyotecounter > 0)
+                if (coyotecounter > 0)
                     Body.velocity = new Vector2(Body.velocity.x, JumpPower);
                 else
                 {
                     if (jumpCounter > 0)
                     {
                         Body.velocity = new Vector2(Body.velocity.x, JumpPower);
-                        jumpCounter --;
+                        jumpCounter--;
                     }
                 }
             }
@@ -195,18 +196,27 @@ public class Playermovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    { 
+    {
 
     }
-        
+
     private bool isGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
     }
     private bool onWall()
-    {//wallLayer durch groundlayer ersetzt !!!!!!! bei bugs kontrollieren
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x,0), 0.1f, /*groundLayer*/wallLayer);
-        return raycastHit.collider != null;
+    {
+        if (wallInteractions == true)
+        {
+
+            RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, /*groundLayer*/wallLayer);
+            return raycastHit.collider != null;
+
+        }
+        else
+        {
+            return false;
+        }
     }
 }

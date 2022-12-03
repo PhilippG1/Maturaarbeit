@@ -8,7 +8,7 @@ using UnityEngine;
 public class PlayerData
 {
     public int jumpCount;
-    public bool canWalljump;
+    public bool wallInteractions;
     public bool canDash;
     public float[] currentCheckpoint;
 
@@ -16,7 +16,7 @@ public class PlayerData
     {
         jumpCount = playermovement.extraJumps;
         canDash = playermovement.dashAbility;
-        canWalljump = playermovement.canWalljump;
+        wallInteractions = playermovement.wallInteractions;
         currentCheckpoint = new float[3];
         currentCheckpoint[0] = health.currentCheckpoint.x;
         currentCheckpoint[1] = health.currentCheckpoint.y;
