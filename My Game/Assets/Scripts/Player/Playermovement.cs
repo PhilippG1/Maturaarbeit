@@ -51,6 +51,7 @@ public class Playermovement : MonoBehaviour
         inputManager = new InputManager();
         playerSize = transform.localScale;
         dashTrail = GetComponent<TrailRenderer>();
+      
     }
     private void OnEnable()
     {
@@ -77,7 +78,7 @@ public class Playermovement : MonoBehaviour
 
             isDashing = true;
             canDash = false;
-            GetComponent<ParticleSystem>().emission.enabled;
+            GetComponentInChildren<ParticleSystem>().Play(true);
             dashingDirection = new Vector2(inputManager.Land.MoveHorizontal.ReadValue<float>(), inputManager.Land.DashDirection.ReadValue<float>());
 
             if (dashingDirection == Vector2.zero)
@@ -152,6 +153,7 @@ public class Playermovement : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         dashTrail.emitting = false;
         isDashing = false;
+        GetComponentInChildren<ParticleSystem>().Stop();
         inputManager.Enable();
         Body.gravityScale = Gravity;
 

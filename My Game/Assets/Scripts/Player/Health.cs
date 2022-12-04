@@ -38,6 +38,8 @@ public class Health : MonoBehaviour
                 inputManager.Disable();
                 anim.SetTrigger("Death");
                 dead = true;
+                
+
 
                 StartCoroutine(Respawn());
 
@@ -63,7 +65,8 @@ public class Health : MonoBehaviour
     }
     public IEnumerator Respawn()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.5f);
+        GetComponentInChildren<ParticleSystem>().Stop();
         transform.position = currentCheckpoint;
         RespawnHealth();
     }
