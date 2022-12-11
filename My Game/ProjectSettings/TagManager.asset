@@ -20,8 +20,8 @@ TagManager:
   - Wall
   - Player
   - Enemy
-  - 
-  - 
+  - EmemyBox
+  - OrangeSlime
   - 
   - 
   - 
@@ -57,4 +57,7 @@ TagManager:
     locked: 0
   - name: foreground
     uniqueID: 2699214821
+    locked: 0
+  - name: foreforeground
+    uniqueID: 1824880201
     locked: 0
