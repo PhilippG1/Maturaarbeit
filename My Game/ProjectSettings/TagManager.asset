@@ -9,6 +9,7 @@ TagManager:
   - WallAbilities
   - DashAbility
   - DoubleJump
+  - Rock
   layers:
   - Default
   - TransparentFX
