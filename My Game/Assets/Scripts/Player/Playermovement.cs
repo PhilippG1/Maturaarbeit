@@ -8,6 +8,11 @@ using UnityEngine.InputSystem;
 
 public class Playermovement : MonoBehaviour
 {
+    [Header("Sound")]
+    [SerializeField] private AudioClip WalkSound;
+    [SerializeField] private AudioClip JumpSound;
+    [SerializeField] private AudioClip DashSound;
+    
     [Header("Movement")]
     [SerializeField] private float Speed;
     [SerializeField] private float JumpPower;
@@ -78,6 +83,7 @@ public class Playermovement : MonoBehaviour
 
             isDashing = true;
             canDash = false;
+            SoundManager.Instance.PlaySound(DashSound);
             GetComponentInChildren<ParticleSystem>().Play(true);
             dashingDirection = new Vector2(inputManager.Land.MoveHorizontal.ReadValue<float>(), inputManager.Land.DashDirection.ReadValue<float>());
 
@@ -118,6 +124,7 @@ public class Playermovement : MonoBehaviour
         if (inputManager.Land.jump.triggered)
         {
             Jump();
+            
         }
         //Jump height
         if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0 && !isDashing)
@@ -165,8 +172,8 @@ public class Playermovement : MonoBehaviour
     private void Jump()
     {
         if (coyotecounter < 0 && !onWall() && jumpCounter <= 0) return;
-        //sound
-        if (onWall())
+        SoundManager.Instance.PlaySound(JumpSound);
+        if (onWall() && inputManager.Land.RT.ReadValue<float>() != 0)
             WallJump();
         else
         {

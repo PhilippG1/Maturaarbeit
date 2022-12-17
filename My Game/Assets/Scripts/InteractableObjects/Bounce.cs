@@ -7,7 +7,7 @@ public class Bounce : MonoBehaviour
     // Start is called before the first frame update
     private bool bounce;
     private GameObject collided;
-    
+    [SerializeField] private AudioClip BounceSound;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.CompareTag("Player"))
@@ -18,7 +18,11 @@ public class Bounce : MonoBehaviour
                 collided = collision.gameObject;
                 bounce = true;
                 StartCoroutine(StopBounce());
+                SoundManager.Instance.PlaySound(BounceSound);
                 
+                
+                
+
             }
         }
         
