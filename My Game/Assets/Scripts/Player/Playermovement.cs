@@ -46,7 +46,6 @@ public class Playermovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private InputManager inputManager;
     private Vector3 playerSize;
-    private float wallJumpCooldown;
     private float Horizontalinput;
     private void Awake()
     {   // Get references for rigidbody and animator
@@ -201,7 +200,7 @@ public class Playermovement : MonoBehaviour
     private void WallJump()
     {
         Body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x) * wallJumpX, wallJumpY));
-        //wallJumpCooldown = 0;
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
