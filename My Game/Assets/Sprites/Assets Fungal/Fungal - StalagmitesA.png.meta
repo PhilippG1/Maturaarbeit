@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,369 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1292
+        width: 296
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191cd58493d36594aa002ad2086cc7fb
+      internalID: 826252198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1289
+        width: 332
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f379ccc5536d984f8a9f1911d0c4e65
+      internalID: 1513135217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_2
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1074
+        width: 204
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692f2201dbf1d9c45ab4da17cb071804
+      internalID: 1750659782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1075
+        width: 129
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4b90b2320363b45b803b457d3db804
+      internalID: -1645436896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_4
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1079
+        width: 130
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1765bdb7695834641b3355e077d5a3e9
+      internalID: 2001441393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 550
+        width: 303
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225967d787ab7e44c96df8355b28d6ab
+      internalID: 627778363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 550
+        width: 401
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d6ce2afeafdff448ddf00e6ab250c1
+      internalID: 834647396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 43
+        width: 137
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f420a36514117144bf2e727d1da7c6e
+      internalID: -842934633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_8
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 34
+        width: 186
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eba120d26eb254c9d8e3b14319588c
+      internalID: 190449706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 40
+        width: 138
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb56a206ae61f428209eff0c331ef1
+      internalID: 1013445004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_10
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 37
+        width: 186
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773c5d511b00144d9b8576380327804
+      internalID: -796899310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 27
+        width: 85
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1429c0c8d4f35c844b8a3f89a0fa581a
+      internalID: -6991698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 114
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f1fcc6008e5bf4d8f47cec74e08cae
+      internalID: 2020259192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 27
+        width: 126
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acaaf484ebb7fd42b5e3f9aefc4328c
+      internalID: -319024882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 28
+        width: 81
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934dd7596f54595438a37c1c87dc1432
+      internalID: -1728999268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fungal - StalagmitesA_15
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 33
+        width: 81
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c3495c15173340b59c0182ed3ec86
+      internalID: -659076872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +449,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fungal - StalagmitesA_1: 1513135217
+      Fungal - StalagmitesA_0: 826252198
+      Fungal - StalagmitesA_10: -796899310
+      Fungal - StalagmitesA_3: -1645436896
+      Fungal - StalagmitesA_9: 1013445004
+      Fungal - StalagmitesA_11: -6991698
+      Fungal - StalagmitesA_12: 2020259192
+      Fungal - StalagmitesA_7: -842934633
+      Fungal - StalagmitesA_15: -659076872
+      Fungal - StalagmitesA_2: 1750659782
+      Fungal - StalagmitesA_13: -319024882
+      Fungal - StalagmitesA_14: -1728999268
+      Fungal - StalagmitesA_4: 2001441393
+      Fungal - StalagmitesA_5: 627778363
+      Fungal - StalagmitesA_8: 190449706
+      Fungal - StalagmitesA_6: 834647396
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

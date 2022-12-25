@@ -17,6 +17,6 @@ public class EnemyFlyToPlayer : MonoBehaviour
     void Update()
     {
         direction = (PlayerObject.transform.position - transform.position).normalized;
-        this.gameObject.GetComponent<Rigidbody2D>().velocity = direction;
+        this.gameObject.GetComponent<Rigidbody2D>().velocity = direction * speed;
     }
 }

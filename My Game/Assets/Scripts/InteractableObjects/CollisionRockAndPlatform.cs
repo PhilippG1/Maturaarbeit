@@ -5,12 +5,27 @@ using UnityEngine;
 
 public class CollisionRockAndPlatform : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GameObject PlayerObject;
+    private void Awake()
+    {
+        PlayerObject = GameObject.FindGameObjectsWithTag("Player")[0];
+    }
+    private void Update()
+    {
+        if (PlayerObject.GetComponent<Health>().dead)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            this.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Rock"))
         {
-            this.gameObject.SetActive(false);
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            this.gameObject.GetComponent<PolygonCollider2D>().enabled = false;
         }
     }
+
 }
