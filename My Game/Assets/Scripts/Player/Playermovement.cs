@@ -27,7 +27,7 @@ public class Playermovement : MonoBehaviour
     [Header("Walljump")]
     [SerializeField] private float wallJumpX;
     [SerializeField] private float wallJumpY;
-    public bool wallInteractions = false;
+    public bool wallInteractions = true;
     [Header("Layers")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
@@ -35,10 +35,10 @@ public class Playermovement : MonoBehaviour
     [Header("Dash")]
     [SerializeField] private float dashingVelocity;
     [SerializeField] private float dashingTime;
-    public bool dashAbility = false;
+    public bool dashAbility = true;
     private Vector2 dashingDirection;
     public bool isDashing;
-    private bool canDash = false;
+    private bool canDash = true;
     private TrailRenderer dashTrail;
 
     private Rigidbody2D Body;
@@ -157,7 +157,6 @@ public class Playermovement : MonoBehaviour
     private IEnumerator StopDashing()
     {
         yield return new WaitForSeconds(dashingTime);
-        dashTrail.emitting = false;
         isDashing = false;
         GetComponentInChildren<ParticleSystem>().Stop();
         inputManager.Enable();
