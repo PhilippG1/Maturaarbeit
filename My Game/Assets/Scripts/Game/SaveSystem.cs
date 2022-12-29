@@ -7,10 +7,11 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public static class SaveSystem
 {
+    
     public static void SavePlayer(Playermovement playermovement, Health health)
     {
        BinaryFormatter formatter = new BinaryFormatter();
-        string path = "C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";//Path.Combine(Application.persistentDataPath,"/PlayerDataSave.save");
+        string path = "Save.sav";//Path.Combine(Application.persistentDataPath,"/PlayerDataSave.save");//"C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";
         FileStream stream =new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite);
         PlayerData data = new PlayerData(playermovement, health);
 
@@ -22,7 +23,7 @@ public static class SaveSystem
 
     public static PlayerData LoadPlayer()
     {
-        string path = "C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";//Path.Combine(Application.persistentDataPath, "/PlayerDataSave.save");
+        string path = "Save.sav";//Path.Combine(Application.persistentDataPath, "/PlayerDataSave.save");// "C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/SAasdfasfdas.save";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
