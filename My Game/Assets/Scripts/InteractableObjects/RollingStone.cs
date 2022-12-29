@@ -7,6 +7,7 @@ public class RollingStone : MonoBehaviour
     private Rigidbody2D body;
     private GameObject PlayerObject;
     private Vector3 StartPosition;
+    public bool Rolling;
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -19,7 +20,7 @@ public class RollingStone : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         body.velocity = body.velocity.normalized * 5;
-        if (PlayerObject.GetComponent<Health>().dead)
+        if (PlayerObject.GetComponent<Health>().dead && Rolling)
         {
             body.constraints = RigidbodyConstraints2D.FreezeAll;
             transform.position = StartPosition;
