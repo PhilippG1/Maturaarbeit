@@ -31,12 +31,12 @@ public class FallingPlatform : MonoBehaviour
 
     private IEnumerator FallPlatform()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1/4);
         Body.constraints = RigidbodyConstraints2D.None;
         Body.gravityScale = PlayerObject.GetComponent<Playermovement>().Gravity;
         
 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(3);
         Body.gravityScale = 0;
 
         transform.position = StartingLocation.position;

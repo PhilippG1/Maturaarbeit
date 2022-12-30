@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class SaveFileMenu : MonoBehaviour
 {
+    [SerializeField]private GameObject confirmationPrompt;
     private Playermovement playermovement;
     private Health health;
     private GameObject playerObject;
 
     public void SavePlayer()
     {
+        StartCoroutine(ConfirmationBox());
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
         playerObject = objs[0];
         playermovement = playerObject.GetComponent<Playermovement>();
@@ -32,5 +34,10 @@ public class SaveFileMenu : MonoBehaviour
         playerObject.transform.position = health.currentCheckpoint;
 
     }
-
+    public IEnumerator ConfirmationBox()
+    {
+        confirmationPrompt.SetActive(true);
+        yield return new WaitForSeconds(2);
+        confirmationPrompt.SetActive(false);
+    }
 }

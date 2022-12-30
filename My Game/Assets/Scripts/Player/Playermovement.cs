@@ -17,6 +17,7 @@ public class Playermovement : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] private float JumpPower;
     [SerializeField] public float Gravity;
+    public bool Bounce;
     
     [Header("Coyote Time")]
     [SerializeField] private float coyoteTime;
@@ -126,7 +127,7 @@ public class Playermovement : MonoBehaviour
             
         }
         //Jump height
-        if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0 && !isDashing)
+        if (inputManager.Land.jump.ReadValue<float>() == 0 && Body.velocity.y > 0 && !isDashing && !Bounce)
         {
             Body.velocity = new Vector2(Body.velocity.x, Body.velocity.y / 2);
         }
