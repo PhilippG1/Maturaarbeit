@@ -1,0 +1,799 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60374
+Successfully changed project path to: C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 115.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Philipp/Documents/GitHub/Maturaarbeit/My Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008220 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010656 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Philipp\Documents\GitHub\Maturaarbeit\My Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (128.4 KB). Loaded Objects now: 5089.
+Memory consumption went from 258.5 MB to 258.4 MB.
+Total: 3.911100 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.112400 ms MarkObjects: 3.234100 ms  DeleteObjects: 0.121700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17058.985322 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00035.png
+  artifactKey: Guid(b38a097673ef4b744a938b3c146fb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00035.png using Guid(b38a097673ef4b744a938b3c146fb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5724b75786e6a52613c7df44c7174b98') in 0.199338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00032.png
+  artifactKey: Guid(20ad27b4be00999429d2ccabeaab684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00032.png using Guid(20ad27b4be00999429d2ccabeaab684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57002cf9f5eab818f11e5584d5dbccd') in 0.036821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00012.png
+  artifactKey: Guid(830949a3948d66c419259ff155f909d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00012.png using Guid(830949a3948d66c419259ff155f909d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af298994ac0b28807e1386014d5ec7b5') in 0.036359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00021.png
+  artifactKey: Guid(641206e38a7e4c644846e7c90719e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00021.png using Guid(641206e38a7e4c644846e7c90719e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f493579e2a8fa2ccb8de2c2d62acc6f9') in 0.033799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00036.png
+  artifactKey: Guid(e2451130f0b658046a94b3627da1c2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00036.png using Guid(e2451130f0b658046a94b3627da1c2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb57b9cccf9cb1431dfe180f00521b4b') in 0.039690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00023.png
+  artifactKey: Guid(0ed5ed8b3542b2547a202ba1966c4a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00023.png using Guid(0ed5ed8b3542b2547a202ba1966c4a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2556fbec6f25102ecef61b93fef58c') in 0.037354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00017.png
+  artifactKey: Guid(9cc80dba0edc33e45b4cf2dfffe6747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00017.png using Guid(9cc80dba0edc33e45b4cf2dfffe6747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673a3ae4e419ace5bff24cff2f68a29b') in 0.036367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00015.png
+  artifactKey: Guid(d41f89ca20057f94c9fed1154dbfd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00015.png using Guid(d41f89ca20057f94c9fed1154dbfd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba62d45510a2cdfac95d967d2f9f2e1') in 0.033404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00031.png
+  artifactKey: Guid(b98626e88497051488c027385cf6b43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00031.png using Guid(b98626e88497051488c027385cf6b43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d015c9eb8fca9f4578d82567c5ecd') in 0.033889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00013.png
+  artifactKey: Guid(855c191b1dbfddb4289aed1175cf4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00013.png using Guid(855c191b1dbfddb4289aed1175cf4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382136dc504dd67487a97d6a6033b8f') in 0.032664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00008.png
+  artifactKey: Guid(9436a8b7c7a621f4a8f7527cbfbc36cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00008.png using Guid(9436a8b7c7a621f4a8f7527cbfbc36cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c0564fac51005e0327255a9f3565bf') in 0.032257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00000.png
+  artifactKey: Guid(9bee4401f97494a4ea16b9250f052121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00000.png using Guid(9bee4401f97494a4ea16b9250f052121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7243d61e20ff5d6e33d12147818182bf') in 0.034309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00007.png
+  artifactKey: Guid(1b94d28abcc277b479513791cccce432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00007.png using Guid(1b94d28abcc277b479513791cccce432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286ff315b6b19a148508369ca49a0508') in 0.032134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00022.png
+  artifactKey: Guid(e83c4dce28ad326429483da593b02011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00022.png using Guid(e83c4dce28ad326429483da593b02011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb14f8e831596e38ca0917b97e80a7d') in 0.035343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00014.png
+  artifactKey: Guid(399a0006b50b08c45a040eb253a328c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 1/Plant1_00014.png using Guid(399a0006b50b08c45a040eb253a328c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d724043f87bdf1ff4df066d5fb4bb75') in 0.034759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794776 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3
+  artifactKey: Guid(5a1ff58434bb7074285165acdb6f722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3 using Guid(5a1ff58434bb7074285165acdb6f722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959415b8707cf78a11aaf1ac58de7d46') in 0.005311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095335 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00000.png
+  artifactKey: Guid(c32ce01cf06975b4fbe6e4158d0c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00000.png using Guid(c32ce01cf06975b4fbe6e4158d0c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371449a98dacc82a45795016a2426097') in 0.034259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00016.png
+  artifactKey: Guid(c33af31cbe312e3408fbaab9440b0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00016.png using Guid(c33af31cbe312e3408fbaab9440b0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e8dbe2468d879fa2449977bd97259') in 0.036326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00021.png
+  artifactKey: Guid(ab0e2d9d1b5a5e94ba62d4a2024defc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00021.png using Guid(ab0e2d9d1b5a5e94ba62d4a2024defc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a91b85609b77a3e3060890d3ba92ad') in 0.035560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00023.png
+  artifactKey: Guid(c131473f69f0f0e4a87854ca990a416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00023.png using Guid(c131473f69f0f0e4a87854ca990a416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62d54181d3db67309d4665857d0378e') in 0.036230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00039.png
+  artifactKey: Guid(18d51628923a61d4d8a436f7ce2caf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00039.png using Guid(18d51628923a61d4d8a436f7ce2caf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582766a4178645527ef9b7766b19f44e') in 0.035435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00015.png
+  artifactKey: Guid(8d9cc7c0307efd74d923b11a0ed51246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00015.png using Guid(8d9cc7c0307efd74d923b11a0ed51246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030af9027c192cd6d4b94713214eeb23') in 0.034486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00006.png
+  artifactKey: Guid(9ef1e9d8c35df334c91015d9b886ee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00006.png using Guid(9ef1e9d8c35df334c91015d9b886ee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c733afbd734a45871e6c48997a47cc0') in 0.038645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00018.png
+  artifactKey: Guid(9664377a4a6b3bb4db9344d55d1d5441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00018.png using Guid(9664377a4a6b3bb4db9344d55d1d5441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416edbebb2e3c85eaa463f40d432d1a7') in 0.036120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00005.png
+  artifactKey: Guid(a61621c03cb475840ae5a19faf773101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00005.png using Guid(a61621c03cb475840ae5a19faf773101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cde4eeaf617cabf059c77ab67ee13b') in 0.035646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00040.png
+  artifactKey: Guid(ef5b82bf091b10141b95644e43fb640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00040.png using Guid(ef5b82bf091b10141b95644e43fb640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa49e140ff6363c665dc91cf134b0af') in 0.038027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00030.png
+  artifactKey: Guid(95a290d35b8b8704fa7a42ff3153745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00030.png using Guid(95a290d35b8b8704fa7a42ff3153745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7219704bec31229b58f69d0e61ceaadc') in 0.039588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00022.png
+  artifactKey: Guid(f75f76ee9874c4a438c407523318efd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00022.png using Guid(f75f76ee9874c4a438c407523318efd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca28a6ffa1e1ed32f1bdc762ca97326') in 0.038327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00027.png
+  artifactKey: Guid(279c822261948fb458c881ee1bb8a264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00027.png using Guid(279c822261948fb458c881ee1bb8a264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac960ce20d67ebfdb2ea5f6eae1d778d') in 0.037465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00004.png
+  artifactKey: Guid(af44af4e94228d84bb64607b4410dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00004.png using Guid(af44af4e94228d84bb64607b4410dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e413af5c8ff2ea97d1d13270b37fa93') in 0.035942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00026.png
+  artifactKey: Guid(1d24e0db9b7891d47a8141ae1e766787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 3/Plant3_00026.png using Guid(1d24e0db9b7891d47a8141ae1e766787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec616a2e8a7fb6fd82d6c306427fa575') in 0.040670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.958455 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4
+  artifactKey: Guid(592640e297239964abb823c04e5a560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4 using Guid(592640e297239964abb823c04e5a560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd709c2ebb23d585c11693f25684896a') in 0.008270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039936 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00000.png
+  artifactKey: Guid(f3441939efeb78642af48672f25d36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00000.png using Guid(f3441939efeb78642af48672f25d36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c713c3ff94ca749eb0a2874c9c6d01f') in 0.032305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00011.png
+  artifactKey: Guid(e1d121237980dc34c805936b5cc924c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00011.png using Guid(e1d121237980dc34c805936b5cc924c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339f58a5bc48c7eb003e9477df862c9b') in 0.034916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00008.png
+  artifactKey: Guid(656510fd15935464a8343406373981ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00008.png using Guid(656510fd15935464a8343406373981ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bcf1a31700599f22c40581b1a7ee31') in 0.033599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00016.png
+  artifactKey: Guid(e10b7a47924db76479caf05c768d4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00016.png using Guid(e10b7a47924db76479caf05c768d4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a60a7c49ecf2a5d4e5d6d748c27389') in 0.032424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00042.png
+  artifactKey: Guid(56c2805ccad863c44a4ccc7add91be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00042.png using Guid(56c2805ccad863c44a4ccc7add91be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba4e87391866d4dc24eac0e71992a44') in 0.032579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00036.png
+  artifactKey: Guid(71684406ac7ab154f81e6c334c134b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00036.png using Guid(71684406ac7ab154f81e6c334c134b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef763d34954184075f000cd276f57b') in 0.034737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00015.png
+  artifactKey: Guid(8e5aca1e6ef44044d8de594f6ede98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00015.png using Guid(8e5aca1e6ef44044d8de594f6ede98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f394b78330b0d08dacbf265e9d7c0') in 0.034676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00020.png
+  artifactKey: Guid(dbd7b6c1bef1a5e4299055b0e0ff47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00020.png using Guid(dbd7b6c1bef1a5e4299055b0e0ff47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd2c88dc5e36dfe861ad794fdbe2379') in 0.038498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00035.png
+  artifactKey: Guid(39faf22177ccfff488ebecaa5bfbd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00035.png using Guid(39faf22177ccfff488ebecaa5bfbd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6962567332e1f1d47301f35dba3c7f') in 0.033893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00009.png
+  artifactKey: Guid(9355aa47a2b993a42a7453e277a3a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00009.png using Guid(9355aa47a2b993a42a7453e277a3a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b049a319f41e9bf687094e56ddf9bbd') in 0.035178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00039.png
+  artifactKey: Guid(cb530cce7e501fe41af93817a71a5781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00039.png using Guid(cb530cce7e501fe41af93817a71a5781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfd0e4e39ee05673dfb26efd7d080c7') in 0.041858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00012.png
+  artifactKey: Guid(6b4ba2de1cf930345b235db3984511dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00012.png using Guid(6b4ba2de1cf930345b235db3984511dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2173582cd3cd0d279f48eb63d5e15770') in 0.045045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00028.png
+  artifactKey: Guid(d1878269cb52fd641b9d3b215decab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00028.png using Guid(d1878269cb52fd641b9d3b215decab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9739a71c880e95ea1b33ec3c65ff4b') in 0.034674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00038.png
+  artifactKey: Guid(cc588c247b3203b4d8da3dd04ae9477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00038.png using Guid(cc588c247b3203b4d8da3dd04ae9477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bbc3d2e6915fb6bada3ba4b79fef5f') in 0.034835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00021.png
+  artifactKey: Guid(c8d3dbf16d1861242ab0571ea2658797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 4/Plant4_00021.png using Guid(c8d3dbf16d1861242ab0571ea2658797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b0ba10ecfccd43d540c42c7c3668ec') in 0.038655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.454703 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5
+  artifactKey: Guid(c97b2cabc30f0604f95e4d9e0972abc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5 using Guid(c97b2cabc30f0604f95e4d9e0972abc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03aab841abaf7c40127e0e31a936d10e') in 0.005023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077262 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00000.png
+  artifactKey: Guid(8fb1db144ef58c645b31c14236d3ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00000.png using Guid(8fb1db144ef58c645b31c14236d3ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12017b2a528ceaa6dc8a298f0ae6ae') in 0.031887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00017.png
+  artifactKey: Guid(bbcc15a868e58cc4a9d181f076e27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00017.png using Guid(bbcc15a868e58cc4a9d181f076e27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a718b4e285cf790f116db887080bc927') in 0.036685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00036.png
+  artifactKey: Guid(0df7091b5825810418b47411539d2d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00036.png using Guid(0df7091b5825810418b47411539d2d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb02bb2e1611e80c21706f75630372d') in 0.038537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00023.png
+  artifactKey: Guid(2087d506e4dc3904ea4773fbc6a0b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00023.png using Guid(2087d506e4dc3904ea4773fbc6a0b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01702eaa02f7b2b7e0b5572f22612380') in 0.040453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00014.png
+  artifactKey: Guid(9302af48765520a4e8baafd8fe4b6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00014.png using Guid(9302af48765520a4e8baafd8fe4b6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0025abf1bd453b77be0bd9e47f56da8b') in 0.038437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00026.png
+  artifactKey: Guid(2a73eb80e8344874f92997c11a5d929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00026.png using Guid(2a73eb80e8344874f92997c11a5d929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ace18d8e345f581496e7a531bf10383') in 0.036950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00044.png
+  artifactKey: Guid(f39e300409fd5c3448ae33daf4d5a9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00044.png using Guid(f39e300409fd5c3448ae33daf4d5a9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2309f8799663203d098620e32fa009') in 0.036810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00043.png
+  artifactKey: Guid(2acf4be4aaf2d6b4d81623d431a58ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00043.png using Guid(2acf4be4aaf2d6b4d81623d431a58ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d226d45164cdc8a5b06c448665ebe1b') in 0.036788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00007.png
+  artifactKey: Guid(9f6f9a95777d4c64292f2be2bcdfa929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00007.png using Guid(9f6f9a95777d4c64292f2be2bcdfa929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effb01055d9efe0af9178e5187940faf') in 0.035710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00010.png
+  artifactKey: Guid(9b689ce4ec4372b489e837e802e684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00010.png using Guid(9b689ce4ec4372b489e837e802e684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6030e6b3862218e7596b81f56d8d57d6') in 0.035202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00040.png
+  artifactKey: Guid(dee693d32abfd5a4f80fa13a772e9495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00040.png using Guid(dee693d32abfd5a4f80fa13a772e9495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7698c5df425833b9b4ba7ce83aeba975') in 0.035604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00027.png
+  artifactKey: Guid(27280c7682a6e8b48920afe06ffa687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00027.png using Guid(27280c7682a6e8b48920afe06ffa687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a7d700e7ceea107a56e040dab8e7e2') in 0.035780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00009.png
+  artifactKey: Guid(816671755adff584393a81c12357be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00009.png using Guid(816671755adff584393a81c12357be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a5e775f323f3cf3d5839f4d3b50fe3') in 0.036133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00039.png
+  artifactKey: Guid(f67b21a15dea30d43bc4be87e5bb1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00039.png using Guid(f67b21a15dea30d43bc4be87e5bb1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9de1f07bf0efdb9b97a697e2f4d458a') in 0.034987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00011.png
+  artifactKey: Guid(468dd43b74c3f624abf3811fd524e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 5/Plant5_00011.png using Guid(468dd43b74c3f624abf3811fd524e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3883e911959bb1260220e2513931ca') in 0.033719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.297562 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6
+  artifactKey: Guid(f6a4f374ca6236a48b4af9fd657a2aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6 using Guid(f6a4f374ca6236a48b4af9fd657a2aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016f2469aeb33ef04397f54e66c9434a') in 0.005445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048518 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00000.png
+  artifactKey: Guid(8e3439995d67caf4fb4dd166f2cacb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00000.png using Guid(8e3439995d67caf4fb4dd166f2cacb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8666be81fd7bb47379fb22fad586864d') in 0.032040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00025.png
+  artifactKey: Guid(6b0be93bd0570c848816581c18684320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00025.png using Guid(6b0be93bd0570c848816581c18684320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ef26604f93c6f1b886c24cb5b4d08b') in 0.034447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00043.png
+  artifactKey: Guid(cc3e3f20f5b718c4c989a52c2303ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00043.png using Guid(cc3e3f20f5b718c4c989a52c2303ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99ed171f077b4740fb5c90faeee364c') in 0.033392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00028.png
+  artifactKey: Guid(f6cfc9040b5935749934633d65964ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00028.png using Guid(f6cfc9040b5935749934633d65964ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e10f2fa82413a2b8c741d6633f2e737') in 0.034559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00007.png
+  artifactKey: Guid(82f9e64529bd4414482280d56c2acc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00007.png using Guid(82f9e64529bd4414482280d56c2acc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d64f4185be0fd9606ae415545ebd9') in 0.040753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00011.png
+  artifactKey: Guid(c67cfaeae26ad9d448bd4d8a1eb4ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00011.png using Guid(c67cfaeae26ad9d448bd4d8a1eb4ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84af712b4ec2422871aef0575e98520f') in 0.033612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00014.png
+  artifactKey: Guid(b1b0a45cd975834469b0cd383b1a8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00014.png using Guid(b1b0a45cd975834469b0cd383b1a8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea706203ba37a01f773f911e370dbe00') in 0.032380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00017.png
+  artifactKey: Guid(3f6750be5fa7b2142bc383763286dc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00017.png using Guid(3f6750be5fa7b2142bc383763286dc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3ab39a68819972a319fa89c445321f') in 0.033453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00009.png
+  artifactKey: Guid(38322995de5743a459403cb3ddf316c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00009.png using Guid(38322995de5743a459403cb3ddf316c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ca6034f095083187e955b25c15773') in 0.033729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00042.png
+  artifactKey: Guid(04a886f7313d2944bb6a3b626e6ee51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00042.png using Guid(04a886f7313d2944bb6a3b626e6ee51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577236b2499a19b59e26bb5f608ec7e5') in 0.034778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00036.png
+  artifactKey: Guid(a8c1637dd727b53499359d5a2ed8a6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00036.png using Guid(a8c1637dd727b53499359d5a2ed8a6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233349bc2982f156a58d977ee46d8027') in 0.033875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00016.png
+  artifactKey: Guid(8dc0ec017c1305c4f8d7facf0eec7245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00016.png using Guid(8dc0ec017c1305c4f8d7facf0eec7245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1789a37a512f28d6d9d327bd6a5d5037') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00019.png
+  artifactKey: Guid(9cdaaf81c2400304a9334dc6af7fb4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00019.png using Guid(9cdaaf81c2400304a9334dc6af7fb4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35ec4a03b5207fe2cf2b2c30bc1e052') in 0.036065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00006.png
+  artifactKey: Guid(6413f7de441b38143b483a1d1361aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00006.png using Guid(6413f7de441b38143b483a1d1361aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeabb66922ecc7356254cae81416b63') in 0.033674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00040.png
+  artifactKey: Guid(f966c0663bb903d4189e6a846a10d016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 6/Plant6_00040.png using Guid(f966c0663bb903d4189e6a846a10d016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21155810d27c5329bf19ede9d9aea481') in 0.034336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.266447 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7
+  artifactKey: Guid(50099b90bd1d3074b9726ac476e594c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7 using Guid(50099b90bd1d3074b9726ac476e594c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba2b22f92ab83fef14b4978785f8b2') in 0.005498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039171 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00000.png
+  artifactKey: Guid(7aaa024257ba0894b9dd9312d7a1eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00000.png using Guid(7aaa024257ba0894b9dd9312d7a1eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8d8434bc6cd5481f30f483f96932d2') in 0.033394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00010.png
+  artifactKey: Guid(ff21379e3f1c960428a6c08c95d380e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00010.png using Guid(ff21379e3f1c960428a6c08c95d380e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef0f235f217276fc4065cf9cb34d5f6') in 0.034584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00009.png
+  artifactKey: Guid(0eec096363a30e5489a8cc543c9a8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00009.png using Guid(0eec096363a30e5489a8cc543c9a8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4fd8afeb63d6fe5579041070b56662') in 0.035971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00026.png
+  artifactKey: Guid(a8be58e1cba233e4a9db220ac1d7f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00026.png using Guid(a8be58e1cba233e4a9db220ac1d7f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f6d1286c0ee10cf03ad79c83f85a7e') in 0.035803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00041.png
+  artifactKey: Guid(d8f6b09e809d42a4aaa1f663c685dc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00041.png using Guid(d8f6b09e809d42a4aaa1f663c685dc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b752c197be55e6e93399aa0f599765') in 0.034765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00003.png
+  artifactKey: Guid(a67979bbcd1de8a4d9d719a4bb07b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00003.png using Guid(a67979bbcd1de8a4d9d719a4bb07b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce332e9c11b78386016a4f286009fc0') in 0.037919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00035.png
+  artifactKey: Guid(7800660de4953e84084c17d837101da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00035.png using Guid(7800660de4953e84084c17d837101da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9195b2ec035098b1f31727443e5a65d3') in 0.036150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00030.png
+  artifactKey: Guid(51a093716d191094894831b6c8f6eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00030.png using Guid(51a093716d191094894831b6c8f6eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699ff2b2f9ddc64e37d47f3acb10cda') in 0.036821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00023.png
+  artifactKey: Guid(486d25a9a9ad33840b6710ae53733d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00023.png using Guid(486d25a9a9ad33840b6710ae53733d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8b65e8c53149709b4d0e6018534dfd') in 0.036198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00015.png
+  artifactKey: Guid(f907ac1974022604c9370831cfb8fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00015.png using Guid(f907ac1974022604c9370831cfb8fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1fac48787a42e349b58d69a6defc1e') in 0.035552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00028.png
+  artifactKey: Guid(d87899faa229dc149873505a84728278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00028.png using Guid(d87899faa229dc149873505a84728278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958b2014f3f860e48d5d6e65b45bdd74') in 0.038120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00019.png
+  artifactKey: Guid(f26b4ce75f2065e4ab3378dd45d6dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00019.png using Guid(f26b4ce75f2065e4ab3378dd45d6dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3545b7b733d5de0ffd825b7ef4618e9') in 0.036406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00036.png
+  artifactKey: Guid(8910357af908f454aad727c1021ace24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00036.png using Guid(8910357af908f454aad727c1021ace24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7a8f51afe67119dae9bbf60730fb61') in 0.035443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00020.png
+  artifactKey: Guid(de9516d8fa8d06045bfa8c3c435769f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00020.png using Guid(de9516d8fa8d06045bfa8c3c435769f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100b3d0003b2601e05e9fc8a928376ad') in 0.036161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00005.png
+  artifactKey: Guid(be07cf91ba17cb34d91477f81759eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 7/Plant7_00005.png using Guid(be07cf91ba17cb34d91477f81759eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6d2bd4bc1e11f4c1e9cf49df94923b') in 0.033316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.283719 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison
+  artifactKey: Guid(6f1c5ba49ab2eef48b759b003da687b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison using Guid(6f1c5ba49ab2eef48b759b003da687b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f88548406b8eed7306514e62d57580') in 0.005547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046481 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00000.png
+  artifactKey: Guid(14caeed7be067b24d977e0733f539df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00000.png using Guid(14caeed7be067b24d977e0733f539df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7176de04fd4f0b6189477bf0dbe08bcf') in 0.037253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00024.png
+  artifactKey: Guid(a3fa0b53a5620494c8b5fa52f6af6170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00024.png using Guid(a3fa0b53a5620494c8b5fa52f6af6170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e36d6673ec73e13948eccf9babadba') in 0.036292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00015.png
+  artifactKey: Guid(932783ae41956894e9a9d050b6021a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00015.png using Guid(932783ae41956894e9a9d050b6021a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3d47bd294a76fb992f4c74e4cbc679') in 0.038994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00004.png
+  artifactKey: Guid(a104fe29d79447741ae97ae9c01a8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00004.png using Guid(a104fe29d79447741ae97ae9c01a8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dff4cf76defb7d8849e828e61f39b6') in 0.037697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00008.png
+  artifactKey: Guid(360cb4c3d1fc4104e9443255d2987483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00008.png using Guid(360cb4c3d1fc4104e9443255d2987483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef05d82329b7d418895b3a0abc57b5f4') in 0.038024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00010.png
+  artifactKey: Guid(560b9ef1d6049544c8827b18efa04e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00010.png using Guid(560b9ef1d6049544c8827b18efa04e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a3e278b0f1c4f8107001099063bc59') in 0.036302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00016.png
+  artifactKey: Guid(3dbebb8f316b78f4d99bfad8caa58739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00016.png using Guid(3dbebb8f316b78f4d99bfad8caa58739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e9e81512a7b33fa142ff5d4297ade9') in 0.036189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00007.png
+  artifactKey: Guid(c8b5ad9436021a542ad465170bc6295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00007.png using Guid(c8b5ad9436021a542ad465170bc6295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dad672e33a20c00f0ff54ecb7788e6b') in 0.039721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00006.png
+  artifactKey: Guid(4d2edb1de58e1974fa8d21c4cd1bd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00006.png using Guid(4d2edb1de58e1974fa8d21c4cd1bd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275421a4c79ff6a06720a0b7e22c5986') in 0.039932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00028.png
+  artifactKey: Guid(b006368146bb13a47aec312bdeb10dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slimebiome/Plant Animations/Plant 8 Poison/PlantPosion_00028.png using Guid(b006368146bb13a47aec312bdeb10dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c1d5e1bac4c1f007d6cb7ab4224e9d') in 0.037344 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
