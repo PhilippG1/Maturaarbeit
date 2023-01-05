@@ -26,7 +26,7 @@ public class MenuController : MonoBehaviour
     [Header("Levels To Load")]
     public string _NewGameLevel;
     public string levelToLoad;
-    [SerializeField] private GameObject noSavedGameDialog = null;
+    
 
     [Header("Resolution Dropdown")]
     public TMP_Dropdown resolutionDropdown;

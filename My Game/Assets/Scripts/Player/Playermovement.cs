@@ -28,7 +28,7 @@ public class Playermovement : MonoBehaviour
     [Header("Walljump")]
     [SerializeField] private float wallJumpX;
     [SerializeField] private float wallJumpY;
-    public bool wallInteractions = true;
+    public bool wallInteractions = false;
     [Header("Layers")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
@@ -36,10 +36,10 @@ public class Playermovement : MonoBehaviour
     [Header("Dash")]
     [SerializeField] private float dashingVelocity;
     [SerializeField] private float dashingTime;
-    public bool dashAbility = true;
+    public bool dashAbility = false;
     private Vector2 dashingDirection;
     public bool isDashing;
-    private bool canDash = true;
+    private bool canDash = false;
     private TrailRenderer dashTrail;
 
     private Rigidbody2D Body;
