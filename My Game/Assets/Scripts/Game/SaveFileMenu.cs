@@ -34,6 +34,25 @@ public class SaveFileMenu : MonoBehaviour
         playerObject.transform.position = health.currentCheckpoint;
 
     }
+    public void LoadNewPlayer()
+    {
+        if (GameObject.FindGameObjectsWithTag("Player").Length != 0)
+        {
+            GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
+            playerObject = objs[0];
+            health = playerObject.GetComponent<Health>();
+            playermovement = playerObject.GetComponent<Playermovement>();
+
+
+            playermovement.extraJumps = 0;
+            playermovement.dashAbility = false;
+            playermovement.wallInteractions = false;
+
+            health.currentCheckpoint = new Vector3(-30,-5, 0);
+            playerObject.transform.position = health.currentCheckpoint;
+        }
+
+    }
     public IEnumerator ConfirmationBox()
     {
         confirmationPrompt.SetActive(true);
